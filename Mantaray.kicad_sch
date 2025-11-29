@@ -1,0 +1,1414 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "16640ecb-e4a4-4594-871b-70047bfba6e0")
+	(paper "A4")
+	(lib_symbols)
+	(bus_alias "VIDEO"
+		(members "PIX_DATA[0..14]" "PIX_CLK" "VSYNC_OUT" "HSYNC_OUT")
+	)
+	(text "TODO:\n- Power Delivery\n- Audio Out\n- NAND/eMMC\n- Replace generic components with real part numbers"
+		(exclude_from_sim no)
+		(at 50.546 28.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7302e6ac-949d-4d83-9f1e-086a3c0d9157")
+	)
+	(wire
+		(pts
+			(xy 80.01 69.85) (xy 105.41 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131cf439-c5e1-4299-9c09-ec1707d35148")
+	)
+	(wire
+		(pts
+			(xy 80.01 58.42) (xy 105.41 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34671c02-eff2-4efc-81d5-2d3be8cfed72")
+	)
+	(wire
+		(pts
+			(xy 80.01 74.93) (xy 105.41 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf8d58c-cce1-4a37-a0a1-c187a286b4bc")
+	)
+	(wire
+		(pts
+			(xy 80.01 55.88) (xy 105.41 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b7e670-d328-4115-b51d-b01e317ffa7e")
+	)
+	(wire
+		(pts
+			(xy 80.01 64.77) (xy 105.41 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ac6a51-6166-433e-940a-6d9c09784d88")
+	)
+	(wire
+		(pts
+			(xy 80.01 72.39) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f92ada-01ee-4ddb-811e-fd19671f1af0")
+	)
+	(wire
+		(pts
+			(xy 80.01 49.53) (xy 105.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649e2da5-5591-449c-8bc2-2d2d3d9dbb5d")
+	)
+	(bus
+		(pts
+			(xy 148.59 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721ee951-a3fb-4627-95ba-8e786487326b")
+	)
+	(bus
+		(pts
+			(xy 95.25 80.01) (xy 105.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "892aee1f-60bf-4bc0-a2c1-38ef9ff6d178")
+	)
+	(wire
+		(pts
+			(xy 80.01 52.07) (xy 105.41 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab61f2a3-9b5e-4d1f-8a2a-516cd68e2437")
+	)
+	(bus
+		(pts
+			(xy 29.21 102.87) (xy 39.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6018fd7-c9a0-48b6-97be-1c7464b78b50")
+	)
+	(wire
+		(pts
+			(xy 80.01 62.23) (xy 105.41 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1979298-01e2-4dc4-87c6-965a802fdb1b")
+	)
+	(bus
+		(pts
+			(xy 39.37 100.33) (xy 29.21 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff954e3-adf8-41bf-9f0e-8ea1fe7dff59")
+	)
+	(label "{PCIE_X2}"
+		(at 29.21 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15226a72-e549-4623-9f8b-3483d2b5193d")
+	)
+	(label "{PCIE_X2}"
+		(at 95.25 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c86a889-7a62-4b08-b0e2-7a7bfc4e71d8")
+	)
+	(label "{VIDEO}"
+		(at 29.21 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ef17465-8786-4cca-8392-7644131b11d0")
+	)
+	(label "{VIDEO}"
+		(at 158.75 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fcb3321-6493-40f4-837b-0dffbe1e87b2")
+	)
+	(sheet
+		(at 217.17 68.58)
+		(size 30.48 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06303de4-2744-44da-b431-31b4ad95c62e")
+		(property "Sheetname" "AUDIO OUT"
+			(at 217.17 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 217.17 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StingBurst"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 45.72)
+		(size 43.18 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15d9acf0-ed9b-44aa-a266-2c44722c6abb")
+		(property "Sheetname" "XCGPU"
+			(at 105.41 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "apu.kicad_sch"
+			(at 105.41 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CPU_CHECKSTOP_N" output
+			(at 148.59 53.34 0)
+			(uuid "1d4c740c-124d-4197-91ed-3bcf22826c92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPU_CLK_DN" input
+			(at 105.41 52.07 180)
+			(uuid "1065016e-dbe9-486c-89cc-5c3efeeeb44a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CPU_CLK_DP" input
+			(at 105.41 49.53 180)
+			(uuid "4aa62df4-2078-484a-b1f4-96a429a7c3b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CPU_PWRGD" input
+			(at 105.41 72.39 180)
+			(uuid "f011baa8-5eb6-45a1-b32c-ad5a9a106fb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CPU_RST_N" input
+			(at 105.41 69.85 180)
+			(uuid "1afd8303-014d-450d-b64a-12346698240a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CPU_RST_V1P1_N" output
+			(at 148.59 50.8 0)
+			(uuid "7fe149dd-c8fd-4e3e-862a-dceac94816d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPU_SRVID" output
+			(at 148.59 62.23 0)
+			(uuid "ef0b924b-a1a6-4ee4-8584-6c09c1d91bc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPU_TEMP_N" output
+			(at 148.59 74.93 0)
+			(uuid "000c8938-27cc-44a1-94f3-7049a2e0586a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPU_TEMP_P" input
+			(at 105.41 85.09 180)
+			(uuid "08259793-816e-4aeb-a85b-e64ef7627d7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EDRAM_TEMP_N" output
+			(at 148.59 80.01 0)
+			(uuid "f3c19771-6d02-477e-9bdb-c07085489beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EDRAM_TEMP_P" input
+			(at 105.41 90.17 180)
+			(uuid "ddd8d485-f9ad-405e-b9f4-50cc0326eb69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPU_CLK_DN" input
+			(at 105.41 58.42 180)
+			(uuid "d01552a3-ff9d-4ebe-885e-c8e217d0f651")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPU_CLK_DP" input
+			(at 105.41 55.88 180)
+			(uuid "0a4ef7b4-da59-46a5-adeb-52e9560d62aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPU_RST_DONE" output
+			(at 148.59 55.88 0)
+			(uuid "d254ebf9-2fde-464b-908e-b2977ce9f6e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPU_RST_N" input
+			(at 105.41 74.93 180)
+			(uuid "5be674ff-0ee3-42ff-b951-40fa9573d5b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPU_TEMP_N" output
+			(at 148.59 77.47 0)
+			(uuid "d4fb8b8c-1465-4051-95db-bf66022819f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPU_TEMP_P" input
+			(at 105.41 87.63 180)
+			(uuid "44f27fdd-4584-4e01-8c72-569d1f0d0950")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MA{SDRAM}" bidirectional
+			(at 105.41 95.25 180)
+			(uuid "94b3fdb1-3610-4ac9-bd21-4bca2b6a09ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MB{SDRAM}" bidirectional
+			(at 105.41 97.79 180)
+			(uuid "a5a09a33-6e2f-42ef-bb5f-0583423ec54d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MC{SDRAM}" bidirectional
+			(at 105.41 100.33 180)
+			(uuid "8dcba271-276b-4894-b521-78430ee5764a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MD{SDRAM}" bidirectional
+			(at 105.41 102.87 180)
+			(uuid "edeb9157-8711-4441-a72d-2045a9220ecb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_RST" output
+			(at 148.59 85.09 0)
+			(uuid "d24f94f7-be6d-4df0-9e5e-104d1e3aded1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MEM_SCAN_BOT_EN" output
+			(at 148.59 92.71 0)
+			(uuid "0df4408f-0fb8-43a9-9d8d-da00366a8dd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MEM_SCAN_EN" output
+			(at 148.59 87.63 0)
+			(uuid "8f77f4db-bd99-448a-a73d-b43782c4358d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MEM_SCAN_TOP_EN" output
+			(at 148.59 90.17 0)
+			(uuid "dc6e7d1c-ae2b-4309-9925-65d069cfeba1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PIX_CLK_2X_DN" input
+			(at 105.41 64.77 180)
+			(uuid "d1f0644e-763c-4c82-9d00-660ee60d89ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PIX_CLK_2X_DP" input
+			(at 105.41 62.23 180)
+			(uuid "24434248-b6ab-4ec8-aff0-d44d49a26feb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VREG_EFUSE_EN" output
+			(at 148.59 59.69 0)
+			(uuid "1d20aab4-b251-4fc4-ba37-3b87cf5f3097")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XCGPU{VREG_APS[1..6]}" output
+			(at 148.59 64.77 0)
+			(uuid "7ab2286d-54b7-4f46-b2b8-53e8c2c2e77e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{PCIE_X2}" bidirectional
+			(at 105.41 80.01 180)
+			(uuid "6d5a3b14-987f-44db-b776-961552594cbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{VIDEO}" output
+			(at 148.59 69.85 0)
+			(uuid "fe9bc44e-1b37-4f64-89ca-3e6013af46c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "StingBurst"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 85.09)
+		(size 17.78 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2571ed45-33bb-462a-b8a7-fd5672545e72")
+		(property "Sheetname" "Power Delivery"
+			(at 179.07 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwr.kicad_sch"
+			(at 179.07 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StingBurst"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 45.72)
+		(size 40.64 96.52)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5578fb0d-7a85-48a3-97bd-11e67ac7c8dc")
+		(property "Sheetname" "KSB"
+			(at 39.37 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ksb.kicad_sch"
+			(at 39.37 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AV_MODE0" input
+			(at 39.37 118.11 180)
+			(uuid "422fa2e7-edac-4c01-bd17-7c823b389e9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV_MODE1" input
+			(at 39.37 120.65 180)
+			(uuid "a9ef7f00-3dfc-4051-85f0-f50437b7119d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BINDSW_N" input
+			(at 39.37 83.82 180)
+			(uuid "cf2db12a-6c8a-4042-b2ab-655d23a454f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BORONFPMPORT{USB}" bidirectional
+			(at 39.37 53.34 180)
+			(uuid "115f8cd8-a29c-4d8c-a7d0-82a6303d493c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BORONFPM{I2C}" bidirectional
+			(at 39.37 49.53 180)
+			(uuid "988d550b-9840-470e-92da-54ae3f0bee0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BRD_TEMP_N_KSB" input
+			(at 39.37 139.7 180)
+			(uuid "95df2078-d86f-4be7-b7d5-7ef150cbe209")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BRD_TEMP_P_KSB" output
+			(at 80.01 99.06 0)
+			(uuid "6153e487-e5ee-4562-9d3f-5082e8e247dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPU_CLK_DN" output
+			(at 80.01 52.07 0)
+			(uuid "4db7f856-068f-40bc-b9f4-d633dbbbe66e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPU_CLK_DP" output
+			(at 80.01 49.53 0)
+			(uuid "63a4ae81-842e-4736-b492-5151e0b4c4f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPU_PWRGD" output
+			(at 80.01 72.39 0)
+			(uuid "4e0f6b8a-81ca-459a-b677-75d6e88a6869")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPU_RST_N" output
+			(at 80.01 69.85 0)
+			(uuid "1d265eef-078b-46c0-b268-1fbd0b47f5a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPU_TEMP_N_KSB" input
+			(at 39.37 132.08 180)
+			(uuid "3c6265ff-332e-47d1-94e3-2fa2c4dba22a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CPU_TEMP_P_KSB" output
+			(at 80.01 91.44 0)
+			(uuid "bd3ed541-e022-45cc-8035-50dd52f169b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EDRAM_TEMP_N_KSB" input
+			(at 39.37 137.16 180)
+			(uuid "f6c04ab0-3f8e-4812-bdaf-3d86e122a87d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EDRAM_TEMP_P_KSB" output
+			(at 80.01 96.52 0)
+			(uuid "4deb3025-865f-42b0-8308-7fd55598033e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EJECTSW_N" input
+			(at 39.37 86.36 180)
+			(uuid "58f61384-14db-4674-b412-0ef7ca3f513d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXPPORT_PORT1{USB}" bidirectional
+			(at 39.37 66.04 180)
+			(uuid "ba77f8a5-c2e1-4119-89af-088fc315b2b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXPPORT_PORT2{USB}" bidirectional
+			(at 39.37 68.58 180)
+			(uuid "4290ae1e-1893-4b4e-9875-c338e5a88e07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXPPORT_PORT3{USB}" bidirectional
+			(at 39.37 71.12 180)
+			(uuid "18350937-cf6d-465f-9cdf-9424fa5d56c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXPPORT_RJ45{USB}" bidirectional
+			(at 39.37 73.66 180)
+			(uuid "824f3e6a-78e9-4464-be8b-008d18b2fc04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_TEMP_PWR_CTRL" output
+			(at 80.01 80.01 0)
+			(uuid "4488de97-d311-4878-8abc-04d024114838")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN1_FDBK" input
+			(at 39.37 125.73 180)
+			(uuid "53a4b633-eea7-4b35-b07b-ae9c6e7bf152")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAN1_OUT" output
+			(at 80.01 85.09 0)
+			(uuid "0d396444-0353-49a1-a985-ec5b9df89bcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN_TACH" input
+			(at 39.37 128.27 180)
+			(uuid "e808f12c-0486-4b86-aa4f-20a75f38d3d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GAMEPORT1{USB}" bidirectional
+			(at 39.37 59.69 180)
+			(uuid "6e8d810d-bc88-4b67-89ab-56447a9376ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GAMEPORT2{USB}" bidirectional
+			(at 39.37 62.23 180)
+			(uuid "a1b0a46a-5597-4803-be8c-25f78fe4a200")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPU_CLK_DN" output
+			(at 80.01 58.42 0)
+			(uuid "45ea5d17-590c-4f47-a7d4-da20a438071a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPU_CLK_DP" output
+			(at 80.01 55.88 0)
+			(uuid "875e2093-4b8a-484d-b326-a33d0bb6d016")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPU_RST_N" output
+			(at 80.01 74.93 0)
+			(uuid "c4af5901-ced4-4a13-a9dd-380762e71e43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPU_TEMP_N_KSB" input
+			(at 39.37 134.62 180)
+			(uuid "c95727b6-b456-4f1a-b396-e7bc546acc39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPU_TEMP_P_KSB" output
+			(at 80.01 93.98 0)
+			(uuid "c68c5767-c83b-4933-ac7d-3ce19e25beb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDD{SATA}" bidirectional
+			(at 39.37 107.95 180)
+			(uuid "3274bbfe-1cf3-4701-902a-c513e85b591e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IR_DATA" input
+			(at 39.37 78.74 180)
+			(uuid "8618c61c-5c36-45a9-94fe-420421cca004")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ODD{SATA}" bidirectional
+			(at 39.37 110.49 180)
+			(uuid "32828b34-5dc0-4795-8a65-02fcca3edd63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PIX_CLK_2X_DN" output
+			(at 80.01 64.77 0)
+			(uuid "27542743-34c7-4889-91ad-7034d750f611")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PIX_CLK_2X_DP" output
+			(at 80.01 62.23 0)
+			(uuid "0ed8f076-dd9c-450c-9b46-b32e1adec4c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWRSW_N" input
+			(at 39.37 88.9 180)
+			(uuid "c09adecc-a669-4f82-bb4d-674d5aefafb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SMC_PWM1" output
+			(at 80.01 87.63 0)
+			(uuid "8b8ae7b7-0acb-43cd-bebc-03dbbe0d76cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPDIF_OUT" output
+			(at 80.01 134.62 0)
+			(uuid "cebba1dd-026c-4ee4-9a28-93133daf75c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TILTSW_N" input
+			(at 39.37 81.28 180)
+			(uuid "eafc1d85-5081-463e-b47c-c46977685f82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VID_DACA" output
+			(at 80.01 104.14 0)
+			(uuid "b498061d-6dd5-4e3a-9600-44fb2c0117f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VID_DACB" output
+			(at 80.01 106.68 0)
+			(uuid "839b6850-a803-471e-b8f3-36457dc9bd0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VID_DACC" output
+			(at 80.01 109.22 0)
+			(uuid "1adc0a7a-0fd0-460e-ad26-6f898ed1901a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VID_DACD" output
+			(at 80.01 111.76 0)
+			(uuid "e265cc3d-066b-485b-a1cf-8b430b889211")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VID_HSYNC" output
+			(at 80.01 116.84 0)
+			(uuid "46f3e331-2805-4e80-b8c5-90e15e37e600")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VID_VSYNC" output
+			(at 80.01 114.3 0)
+			(uuid "e666af76-a6e2-4332-a1cd-41afd06ed96f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WAVEPORT{USB}" bidirectional
+			(at 39.37 55.88 180)
+			(uuid "1b25bc9d-f038-4190-9fb3-640db236ca74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ETHERNET}" bidirectional
+			(at 39.37 93.98 180)
+			(uuid "02212b87-0148-4300-9df0-2c6a2169808d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{FLASH}" bidirectional
+			(at 39.37 105.41 180)
+			(uuid "f239207e-f5c2-4303-9600-905e0313d270")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{HDMI}" bidirectional
+			(at 39.37 96.52 180)
+			(uuid "946d5fee-373a-4807-82bb-39bf8eeeceac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{I2S}" output
+			(at 80.01 132.08 0)
+			(uuid "a7310e4b-20e4-4c9a-ab77-d446e74d498e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{PCIE_X2}" bidirectional
+			(at 39.37 102.87 180)
+			(uuid "83c50620-4b89-4059-b290-2d6fc143a0d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{VIDEO}" input
+			(at 39.37 100.33 180)
+			(uuid "af2016a9-d288-41a9-af9d-e56bb8b82288")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV_MODE2" input
+			(at 39.37 115.57 180)
+			(uuid "e6dc1db4-41f9-4d48-b7b9-cc4fd33e0649")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCART_RGB" output
+			(at 80.01 120.65 0)
+			(uuid "a49e009e-d788-4339-b6e5-7988465647db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WSS_CNTL0" output
+			(at 80.01 123.19 0)
+			(uuid "917c080e-1682-4912-8743-722141f9a026")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WSS_CNTL1" output
+			(at 80.01 125.73 0)
+			(uuid "d8487960-2f88-426e-96c7-cdcf3abbe526")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "StingBurst"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 27.94)
+		(size 16.51 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86893552-f2ab-490f-a69f-dd39edeb22d8")
+		(property "Sheetname" "EMMC"
+			(at 213.36 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emmc.kicad_sch"
+			(at 213.36 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StingBurst"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 149.86)
+		(size 40.64 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "997dad15-c020-40d7-81d1-52d174154fee")
+		(property "Sheetname" "External Connectors"
+			(at 39.37 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io/ext.kicad_sch"
+			(at 39.37 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StingBurst"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 118.11)
+		(size 27.94 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc308790-ec7c-4071-93af-221aae7f0fb4")
+		(property "Sheetname" "Internal Connectors"
+			(at 175.26 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io/int.kicad_sch"
+			(at 175.26 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StingBurst"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 24.13)
+		(size 24.13 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff703b57-aa0b-44f6-a06f-2a6672008282")
+		(property "Sheetname" "RP2350"
+			(at 172.72 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 172.72 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StingBurst"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,12 @@
+#KiCad
+*.bak
+*.backup
+*.sch-bak
+*.kicad_sch-bak
+*.kicad_prl
+_autosave-*
+.tmp
+*~
+
+#generic
+.DS_Store
