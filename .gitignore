@@ -3,6 +3,7 @@
 *.backup
 *.sch-bak
 *.kicad_sch-bak
+*-backups/
 *.kicad_prl
 _autosave-*
 .tmp
