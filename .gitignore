@@ -8,6 +8,7 @@
 _autosave-*
 .tmp
 *~
+*.lck
 
 #generic
 .DS_Store
