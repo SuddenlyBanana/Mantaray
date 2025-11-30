@@ -6,6 +6,7 @@
 *-backups/
 *.kicad_prl
 _autosave-*
+*auto_saved_files*
 .tmp
 *~
 *.lck
