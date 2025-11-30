@@ -478,6 +478,10 @@
       "POWER"
     ],
     [
+      "3ac4cd05-2682-4faa-958d-341ea57a54eb",
+      "MEMORY"
+    ],
+    [
       "86893552-f2ab-490f-a69f-dd39edeb22d8",
       "EMMC"
     ],
@@ -516,6 +520,22 @@
     [
       "c3f5815b-d96b-4fcd-a4d3-8a884fd12a44",
       "USB Stack 2"
+    ],
+    [
+      "ba23fbbb-7461-48a4-9977-0071a231109a",
+      "MEMORY PARTITION B"
+    ],
+    [
+      "07e21cc7-5b84-4539-a1a8-41dc855ac572",
+      "MEMORY PARTITION A"
+    ],
+    [
+      "d7234e75-550a-4904-b619-4ad6a2b17d2f",
+      "MEMORY PARTITION C"
+    ],
+    [
+      "605d31e7-44df-42ff-9e2e-ced6c62f08fe",
+      "MEMORY PARTITION D"
     ]
   ],
   "text_variables": {}

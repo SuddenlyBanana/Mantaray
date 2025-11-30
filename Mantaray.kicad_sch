@@ -8,7 +8,7 @@
 	(bus_alias "VIDEO"
 		(members "PIX_DATA[0..14]" "PIX_CLK" "VSYNC_OUT" "HSYNC_OUT")
 	)
-	(text "TODO:\n- Power Delivery\n- Audio Out\n- NAND/eMMC\n- Replace generic components with real part numbers"
+	(text "TODO:\n- Power Delivery\n- Audio Out\n- NAND/eMMC\n- Replace generic components with real part numbers\n- Also memory i forgot\n"
 		(exclude_from_sim no)
 		(at 50.546 28.702 0)
 		(effects
@@ -19,6 +19,26 @@
 		)
 		(uuid "7302e6ac-949d-4d83-9f1e-086a3c0d9157")
 	)
+	(bus
+		(pts
+			(xy 92.71 102.87) (xy 92.71 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0179ccf6-84f9-4ecb-aa41-5205ec36bab9")
+	)
+	(bus
+		(pts
+			(xy 95.25 124.46) (xy 105.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0493ff22-1fda-4272-8040-85711a138c20")
+	)
 	(wire
 		(pts
 			(xy 80.01 69.85) (xy 105.41 69.85)
@@ -28,6 +48,46 @@
 			(type default)
 		)
 		(uuid "131cf439-c5e1-4299-9c09-ec1707d35148")
+	)
+	(bus
+		(pts
+			(xy 105.41 100.33) (xy 95.25 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15dd0cbf-1b5e-4437-960f-99a0b5aac307")
+	)
+	(wire
+		(pts
+			(xy 168.91 92.71) (xy 148.59 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d1126e-7f78-43e7-91dc-5c925d5e015b")
+	)
+	(wire
+		(pts
+			(xy 163.83 87.63) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26303ca2-91a9-4f5c-92e5-6a2590ade414")
+	)
+	(bus
+		(pts
+			(xy 105.41 95.25) (xy 100.33 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aea5cce-3a4b-4b01-89e2-b9dfc9a45be4")
 	)
 	(wire
 		(pts
@@ -79,6 +139,16 @@
 		)
 		(uuid "51f92ada-01ee-4ddb-811e-fd19671f1af0")
 	)
+	(bus
+		(pts
+			(xy 92.71 127) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fad2465-86e8-4033-8895-3b4b19544799")
+	)
 	(wire
 		(pts
 			(xy 80.01 49.53) (xy 105.41 49.53)
@@ -88,6 +158,16 @@
 			(type default)
 		)
 		(uuid "649e2da5-5591-449c-8bc2-2d2d3d9dbb5d")
+	)
+	(bus
+		(pts
+			(xy 100.33 119.38) (xy 105.41 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8c1f27-2d03-49f5-9063-545edfea1976")
 	)
 	(bus
 		(pts
@@ -101,6 +181,16 @@
 	)
 	(bus
 		(pts
+			(xy 95.25 100.33) (xy 95.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88848324-8344-48bb-afe9-1395aa433f7a")
+	)
+	(bus
+		(pts
 			(xy 95.25 80.01) (xy 105.41 80.01)
 		)
 		(stroke
@@ -108,6 +198,66 @@
 			(type default)
 		)
 		(uuid "892aee1f-60bf-4bc0-a2c1-38ef9ff6d178")
+	)
+	(wire
+		(pts
+			(xy 148.59 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bebbfce-aabd-4af4-bf7d-0706acd7305b")
+	)
+	(bus
+		(pts
+			(xy 105.41 97.79) (xy 97.79 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90614fb0-ea0e-4ee4-8909-021ee5f1a084")
+	)
+	(wire
+		(pts
+			(xy 105.41 130.81) (xy 95.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95985826-34dc-4693-b27d-8168543e6314")
+	)
+	(bus
+		(pts
+			(xy 97.79 121.92) (xy 105.41 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9683d0c8-153f-45f2-b010-8e26a7a10e03")
+	)
+	(wire
+		(pts
+			(xy 85.09 135.89) (xy 105.41 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f14d4a1-64d5-4f2c-be93-5cccca1bf411")
+	)
+	(bus
+		(pts
+			(xy 100.33 95.25) (xy 100.33 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33f4049-5e5d-461c-8bce-cf2bac236a7f")
 	)
 	(wire
 		(pts
@@ -131,6 +281,26 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 133.35) (xy 105.41 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba727a17-9546-42ae-87e6-8554b6c4293f")
+	)
+	(bus
+		(pts
+			(xy 97.79 97.79) (xy 97.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9bc465b-97df-456c-bf59-767e544b4831")
+	)
+	(wire
+		(pts
 			(xy 80.01 62.23) (xy 105.41 62.23)
 		)
 		(stroke
@@ -138,6 +308,26 @@
 			(type default)
 		)
 		(uuid "d1979298-01e2-4dc4-87c6-965a802fdb1b")
+	)
+	(wire
+		(pts
+			(xy 168.91 90.17) (xy 148.59 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3041117-2538-4aa9-86a8-6ded936293f2")
+	)
+	(wire
+		(pts
+			(xy 85.09 138.43) (xy 105.41 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d874bbe4-b4dc-44df-9eff-169fc51b4b15")
 	)
 	(bus
 		(pts
@@ -149,6 +339,26 @@
 		)
 		(uuid "dff954e3-adf8-41bf-9f0e-8ea1fe7dff59")
 	)
+	(bus
+		(pts
+			(xy 105.41 102.87) (xy 92.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff136560-9bff-429f-b401-dc7d1d92ce10")
+	)
+	(label "MEM_SCAN_BOT_EN"
+		(at 168.91 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "094cd492-c722-4d0b-a32f-6cb558d930f2")
+	)
 	(label "{PCIE_X2}"
 		(at 29.21 102.87 0)
 		(effects
@@ -158,6 +368,36 @@
 			(justify left bottom)
 		)
 		(uuid "15226a72-e549-4623-9f8b-3483d2b5193d")
+	)
+	(label "MEM_SCAN_EN"
+		(at 163.83 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22dc0f26-dcc9-49c0-8539-e92042e0d00e")
+	)
+	(label "MEM_SCAN_TOP_EN"
+		(at 168.91 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "244dc67f-989b-4ac8-81ae-c72c687574a2")
+	)
+	(label "MEM_SCAN_BOT_EN"
+		(at 85.09 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "512a1089-2f12-4181-a2f6-20e71c537757")
 	)
 	(label "{PCIE_X2}"
 		(at 95.25 80.01 0)
@@ -179,6 +419,16 @@
 		)
 		(uuid "6ef17465-8786-4cca-8392-7644131b11d0")
 	)
+	(label "MEM_SCAN_EN"
+		(at 90.17 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82722aaa-98ea-43e1-a2c2-331e9150c95b")
+	)
 	(label "{VIDEO}"
 		(at 158.75 69.85 180)
 		(effects
@@ -188,6 +438,36 @@
 			(justify right bottom)
 		)
 		(uuid "9fcb3321-6493-40f4-837b-0dffbe1e87b2")
+	)
+	(label "MEM_RST"
+		(at 158.75 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb96c884-3483-4aa9-b8ae-11df5957d2b8")
+	)
+	(label "MEM_SCAN_TOP_EN"
+		(at 85.09 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d93770ab-9b48-4d26-b1ea-00c03f36bbc1")
+	)
+	(label "MEM_RST"
+		(at 95.25 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffcc0cb8-6a95-4413-a1c8-ee650fe561c2")
 	)
 	(sheet
 		(at 217.17 68.58)
@@ -224,9 +504,9 @@
 			)
 		)
 		(instances
-			(project "StingBurst"
+			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
-					(page "16")
+					(page "17")
 				)
 			)
 		)
@@ -576,7 +856,7 @@
 			)
 		)
 		(instances
-			(project "StingBurst"
+			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
 					(page "2")
 				)
@@ -618,9 +898,131 @@
 			)
 		)
 		(instances
-			(project "StingBurst"
+			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
-					(page "18")
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 115.57)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3ac4cd05-2682-4faa-958d-341ea57a54eb")
+		(property "Sheetname" "MEMORY"
+			(at 105.41 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mem.kicad_sch"
+			(at 105.41 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MA{SDRAM}" bidirectional
+			(at 105.41 119.38 180)
+			(uuid "99f9d0dd-cd39-49ee-9e0d-96e9cf651384")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MB{SDRAM}" bidirectional
+			(at 105.41 121.92 180)
+			(uuid "9d545f88-9b2d-4cba-8868-cdb8789b6bb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MC{SDRAM}" bidirectional
+			(at 105.41 124.46 180)
+			(uuid "d1ea3292-3fd5-44cf-9458-82b97cb09892")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MD{SDRAM}" bidirectional
+			(at 105.41 127 180)
+			(uuid "ee6cf39e-4924-4035-a479-71afd05e4973")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_RST" input
+			(at 105.41 130.81 180)
+			(uuid "5f91539e-f118-4607-b8db-ed5a2c43808d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_BOT_EN" input
+			(at 105.41 138.43 180)
+			(uuid "86d51e5b-7245-491a-a007-46b33bb31cf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_EN" input
+			(at 105.41 133.35 180)
+			(uuid "5972662e-5723-4d90-8bd4-1a6d37cae7ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_TOP_EN" input
+			(at 105.41 135.89 180)
+			(uuid "a5ad4660-efa7-464e-9bf8-23bb807cd76e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mantaray"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
+					(page "15")
 				)
 			)
 		)
@@ -1230,7 +1632,7 @@
 			)
 		)
 		(instances
-			(project "StingBurst"
+			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
 					(page "9")
 				)
@@ -1272,9 +1674,9 @@
 			)
 		)
 		(instances
-			(project "StingBurst"
+			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
-					(page "15")
+					(page "16")
 				)
 			)
 		)
@@ -1314,9 +1716,9 @@
 			)
 		)
 		(instances
-			(project "StingBurst"
+			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
-					(page "19")
+					(page "20")
 				)
 			)
 		)
@@ -1356,9 +1758,9 @@
 			)
 		)
 		(instances
-			(project "StingBurst"
+			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
-					(page "20")
+					(page "21")
 				)
 			)
 		)
@@ -1398,9 +1800,9 @@
 			)
 		)
 		(instances
-			(project "StingBurst"
+			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
-					(page "17")
+					(page "18")
 				)
 			)
 		)

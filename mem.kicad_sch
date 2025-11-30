@@ -1,0 +1,596 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8ee1c235-a326-4d79-9f13-c72920356a07")
+	(paper "A5")
+	(lib_symbols)
+	(hierarchical_label "MEM_SCAN_BOT_EN"
+		(shape input)
+		(at 68.58 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01bb3136-3c50-47d0-94fc-8696ea7b5525")
+	)
+	(hierarchical_label "MEM_SCAN_BOT_EN"
+		(shape input)
+		(at 68.58 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c792224-db82-415a-8667-90b45fa5bc74")
+	)
+	(hierarchical_label "MD{SDRAM}"
+		(shape bidirectional)
+		(at 116.84 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2bcf35bb-4b2d-4a30-8bab-921e252f6652")
+	)
+	(hierarchical_label "MEM_RST"
+		(shape input)
+		(at 116.84 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "336245e0-f5b9-4eb9-aa02-297bf2581885")
+	)
+	(hierarchical_label "MEM_SCAN_TOP_EN"
+		(shape input)
+		(at 68.58 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "408380b6-9a15-4fca-a3e7-e170685e9095")
+	)
+	(hierarchical_label "MC{SDRAM}"
+		(shape bidirectional)
+		(at 116.84 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "475c9f82-019a-48c8-89fb-8f182dd2eeb5")
+	)
+	(hierarchical_label "MEM_SCAN_BOT_EN"
+		(shape input)
+		(at 116.84 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "504909c7-ce45-4f4e-a539-829662b78352")
+	)
+	(hierarchical_label "MEM_RST"
+		(shape input)
+		(at 68.58 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54420430-ace4-4a48-bbf7-8754450a7750")
+	)
+	(hierarchical_label "MEM_SCAN_TOP_EN"
+		(shape input)
+		(at 116.84 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b5133fe-4b6c-4b6b-86c6-336732583d53")
+	)
+	(hierarchical_label "MEM_SCAN_TOP_EN"
+		(shape input)
+		(at 116.84 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "715c95a6-6b93-4e34-8625-0229d8e34a5d")
+	)
+	(hierarchical_label "MB{SDRAM}"
+		(shape bidirectional)
+		(at 68.58 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74ce61fa-ad1b-4a13-b61e-b9ecc0acd277")
+	)
+	(hierarchical_label "MEM_SCAN_TOP_EN"
+		(shape input)
+		(at 68.58 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7730d1ba-3d8f-4b3b-859e-79de13970477")
+	)
+	(hierarchical_label "MEM_SCAN_EN"
+		(shape input)
+		(at 68.58 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7dc5935e-f452-4631-870b-ec91d07a5bce")
+	)
+	(hierarchical_label "MEM_SCAN_BOT_EN"
+		(shape input)
+		(at 116.84 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f778171-1710-4786-bfcb-2512a720f759")
+	)
+	(hierarchical_label "MEM_SCAN_EN"
+		(shape input)
+		(at 68.58 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83a46b35-a0fb-4022-b6f3-84a21bceeb83")
+	)
+	(hierarchical_label "MEM_RST"
+		(shape input)
+		(at 116.84 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b2ac853-a155-418b-bf45-a66970c7265c")
+	)
+	(hierarchical_label "MEM_SCAN_EN"
+		(shape input)
+		(at 116.84 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa97d66a-e791-4222-9703-f75bc0b03bf6")
+	)
+	(hierarchical_label "MEM_RST"
+		(shape input)
+		(at 68.58 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6183086-1fde-4762-a404-cba2bdf9957a")
+	)
+	(hierarchical_label "MEM_SCAN_EN"
+		(shape input)
+		(at 116.84 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7fc1543-3900-4c89-8d97-a470f1471fe6")
+	)
+	(hierarchical_label "MA{SDRAM}"
+		(shape bidirectional)
+		(at 68.58 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8892404-e7e6-49f2-b9e9-e7475cee5124")
+	)
+	(sheet
+		(at 68.58 38.1)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07e21cc7-5b84-4539-a1a8-41dc855ac572")
+		(property "Sheetname" "MEMORY PARTITION A"
+			(at 68.58 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mempart.kicad_sch"
+			(at 68.58 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MEM_RST" input
+			(at 68.58 46.99 180)
+			(uuid "7553b44e-709b-46e9-a843-364f6675f774")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_BOT_EN" input
+			(at 68.58 54.61 180)
+			(uuid "9f1b6de8-38d8-46a3-acfa-f77d2e010e29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_EN" input
+			(at 68.58 49.53 180)
+			(uuid "a288ea78-7d43-4a6b-867a-3deffb9bd30b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_TOP_EN" input
+			(at 68.58 52.07 180)
+			(uuid "fdad908c-6be0-47aa-b242-19ecba81b5ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SDRAM}" bidirectional
+			(at 68.58 41.91 180)
+			(uuid "372f6c6d-4da0-4571-b5ba-420ad0a6fbc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mantaray"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/3ac4cd05-2682-4faa-958d-341ea57a54eb"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 72.39)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "605d31e7-44df-42ff-9e2e-ced6c62f08fe")
+		(property "Sheetname" "MEMORY PARTITION D"
+			(at 116.84 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mempart.kicad_sch"
+			(at 116.84 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MEM_RST" input
+			(at 116.84 81.28 180)
+			(uuid "0943480f-913e-4f25-a99c-d6c93706ab5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_BOT_EN" input
+			(at 116.84 88.9 180)
+			(uuid "fb6dbd26-1aab-416c-900c-ddc0deb2d739")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_EN" input
+			(at 116.84 83.82 180)
+			(uuid "0760eb44-4a03-4697-afb9-459df3e51b5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_TOP_EN" input
+			(at 116.84 86.36 180)
+			(uuid "688ac871-38e7-44d9-920c-a6f5c4376753")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SDRAM}" bidirectional
+			(at 116.84 76.2 180)
+			(uuid "525fb5d0-ca16-416d-a754-8e7e2de91a6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mantaray"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/3ac4cd05-2682-4faa-958d-341ea57a54eb"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 72.39)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba23fbbb-7461-48a4-9977-0071a231109a")
+		(property "Sheetname" "MEMORY PARTITION B"
+			(at 68.58 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mempart.kicad_sch"
+			(at 68.58 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MEM_RST" input
+			(at 68.58 81.28 180)
+			(uuid "a5bffc06-7df4-4197-9b33-556df0107902")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_BOT_EN" input
+			(at 68.58 88.9 180)
+			(uuid "9bd9a70c-d2bc-4fd7-b927-5712f1919697")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_EN" input
+			(at 68.58 83.82 180)
+			(uuid "e918d732-c45b-4311-a937-2e6c5d699d5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_TOP_EN" input
+			(at 68.58 86.36 180)
+			(uuid "957c9fef-0316-4071-a508-a4efda415567")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SDRAM}" bidirectional
+			(at 68.58 76.2 180)
+			(uuid "ca258656-7377-4b00-bb40-950f34e7cc21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mantaray"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/3ac4cd05-2682-4faa-958d-341ea57a54eb"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 38.1)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d7234e75-550a-4904-b619-4ad6a2b17d2f")
+		(property "Sheetname" "MEMORY PARTITION C"
+			(at 116.84 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mempart.kicad_sch"
+			(at 116.84 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MEM_RST" input
+			(at 116.84 46.99 180)
+			(uuid "63422ec7-83af-4d67-818e-1b56f9042591")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_BOT_EN" input
+			(at 116.84 54.61 180)
+			(uuid "4b511a76-f331-453c-9ca8-ad352d4352a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_EN" input
+			(at 116.84 49.53 180)
+			(uuid "ba0862f0-7d14-4e41-aff5-bd16b4f31c63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEM_SCAN_TOP_EN" input
+			(at 116.84 52.07 180)
+			(uuid "caafdd6f-0b42-482e-86f7-3a8f7f81531b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SDRAM}" bidirectional
+			(at 116.84 41.91 180)
+			(uuid "c1ace0f4-57f7-4185-8e0d-5bfbc68fef23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mantaray"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/3ac4cd05-2682-4faa-958d-341ea57a54eb"
+					(page "27")
+				)
+			)
+		)
+	)
+)
