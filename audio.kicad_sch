@@ -759,6 +759,28 @@
 		)
 		(uuid "49cde33d-8730-49f0-bb0c-bc7805b8e12f")
 	)
+	(hierarchical_label "AUDIO_L_OUT"
+		(shape output)
+		(at 165.1 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ba2776c-c27d-4dec-ac8b-29cdae6d645f")
+	)
+	(hierarchical_label "AUDIO_R_OUT"
+		(shape output)
+		(at 165.1 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8c05ffc-e4be-41e1-a99c-ffa97497ea1c")
+	)
 	(symbol
 		(lib_id "Audio:PCM5122PW")
 		(at 147.32 100.33 0)

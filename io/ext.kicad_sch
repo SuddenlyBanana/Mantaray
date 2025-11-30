@@ -7267,6 +7267,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 60.96) (xy 124.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b556df47-2206-4e6a-99f2-3e7d103bb82d")
+	)
+	(wire
+		(pts
 			(xy 144.78 71.12) (xy 144.78 76.2)
 		)
 		(stroke
@@ -7354,6 +7364,16 @@
 			(type default)
 		)
 		(uuid "bcfbd24d-4a6c-42b9-8752-a481ff07c096")
+	)
+	(wire
+		(pts
+			(xy 142.24 60.96) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7d5b92-de05-4b8f-a565-8f5c2cb40333")
 	)
 	(wire
 		(pts
@@ -8477,7 +8497,7 @@
 		)
 	)
 	(global_label "EXT_PWR_ON_N"
-		(shape input)
+		(shape output)
 		(at 147.32 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8542,7 +8562,7 @@
 		(uuid "1b264acc-3a29-48d9-986f-e79a94540a59")
 	)
 	(hierarchical_label "AV_MODE2"
-		(shape input)
+		(shape output)
 		(at 58.42 195.58 180)
 		(effects
 			(font
@@ -8564,7 +8584,7 @@
 		(uuid "351310d9-dda3-431f-882a-2e25713953f4")
 	)
 	(hierarchical_label "AV_MODE0"
-		(shape input)
+		(shape output)
 		(at 147.32 63.5 0)
 		(effects
 			(font
@@ -8596,8 +8616,19 @@
 		)
 		(uuid "7b9909cf-0117-4c81-b24c-2d9979c8e13c")
 	)
-	(hierarchical_label "AV_MODE0"
+	(hierarchical_label "AUDIO_R_OUT"
 		(shape input)
+		(at 124.46 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87e363d7-8677-4887-aff5-874279ab33a2")
+	)
+	(hierarchical_label "AV_MODE0"
+		(shape output)
 		(at 58.42 200.66 180)
 		(effects
 			(font
@@ -8619,7 +8650,7 @@
 		(uuid "8e2adb04-c64e-4132-8805-fc4375593c6b")
 	)
 	(hierarchical_label "AV_MODE1"
-		(shape input)
+		(shape output)
 		(at 147.32 68.58 0)
 		(effects
 			(font
@@ -8652,7 +8683,7 @@
 		(uuid "9a71dae7-5f34-46dc-a102-ae3851584bf0")
 	)
 	(hierarchical_label "AV_MODE1"
-		(shape input)
+		(shape output)
 		(at 58.42 198.12 180)
 		(effects
 			(font
@@ -8707,7 +8738,7 @@
 		(uuid "a98f44e9-6854-4c13-affd-a2252f296a57")
 	)
 	(hierarchical_label "AV_MODE2"
-		(shape input)
+		(shape output)
 		(at 147.32 73.66 0)
 		(effects
 			(font
@@ -8727,6 +8758,17 @@
 			(justify right)
 		)
 		(uuid "c111c9fe-3122-4425-a7b3-9d0d782c52a7")
+	)
+	(hierarchical_label "AUDIO_L_OUT"
+		(shape input)
+		(at 147.32 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c26403db-b301-42d8-837a-b1b10d48063b")
 	)
 	(hierarchical_label "WSS_CNTL1"
 		(shape input)

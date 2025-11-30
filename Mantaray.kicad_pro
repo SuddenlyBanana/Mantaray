@@ -482,12 +482,12 @@
       "MEMORY"
     ],
     [
-      "ba23fbbb-7461-48a4-9977-0071a231109a",
-      "MEMORY PARTITION B"
-    ],
-    [
       "07e21cc7-5b84-4539-a1a8-41dc855ac572",
       "MEMORY PARTITION A"
+    ],
+    [
+      "ba23fbbb-7461-48a4-9977-0071a231109a",
+      "MEMORY PARTITION B"
     ],
     [
       "d7234e75-550a-4904-b619-4ad6a2b17d2f",
@@ -500,10 +500,6 @@
     [
       "86893552-f2ab-490f-a69f-dd39edeb22d8",
       "EMMC"
-    ],
-    [
-      "cc308790-ec7c-4071-93af-221aae7f0fb4",
-      "Internal Connectors"
     ],
     [
       "06303de4-2744-44da-b431-31b4ad95c62e",
@@ -536,6 +532,10 @@
     [
       "c3f5815b-d96b-4fcd-a4d3-8a884fd12a44",
       "USB Stack 2"
+    ],
+    [
+      "cc308790-ec7c-4071-93af-221aae7f0fb4",
+      "Internal Connectors"
     ]
   ],
   "text_variables": {}
