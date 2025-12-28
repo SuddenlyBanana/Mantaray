@@ -22315,7 +22315,7 @@
 	)
 	(bus
 		(pts
-			(xy 163.83 73.66) (xy 168.91 73.66)
+			(xy 163.83 73.66) (xy 166.37 73.66)
 		)
 		(stroke
 			(width 0)
@@ -22755,7 +22755,7 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 50.8) (xy 194.31 50.8)
+			(xy 189.23 50.8) (xy 189.23 48.26)
 		)
 		(stroke
 			(width 0)
@@ -22945,7 +22945,7 @@
 	)
 	(bus
 		(pts
-			(xy 64.77 63.5) (xy 69.85 63.5)
+			(xy 67.31 63.5) (xy 69.85 63.5)
 		)
 		(stroke
 			(width 0)
@@ -23386,7 +23386,7 @@
 	)
 	(hierarchical_label "{VIDEO}"
 		(shape output)
-		(at 168.91 73.66 0)
+		(at 166.37 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23408,7 +23408,7 @@
 	)
 	(hierarchical_label "{PCIE_X2}"
 		(shape bidirectional)
-		(at 64.77 63.5 180)
+		(at 67.31 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23529,7 +23529,7 @@
 	)
 	(hierarchical_label "{PCIE_X2}"
 		(shape bidirectional)
-		(at 194.31 50.8 0)
+		(at 189.23 48.26 90)
 		(effects
 			(font
 				(size 1.27 1.27)

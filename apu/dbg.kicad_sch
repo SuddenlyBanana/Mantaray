@@ -43465,7 +43465,7 @@
 	)
 	(bus
 		(pts
-			(xy 31.75 71.12) (xy 36.83 71.12)
+			(xy 34.29 71.12) (xy 36.83 71.12)
 		)
 		(stroke
 			(width 0)
@@ -43695,7 +43695,7 @@
 	)
 	(bus
 		(pts
-			(xy 143.51 68.58) (xy 148.59 68.58)
+			(xy 148.59 66.04) (xy 148.59 68.58)
 		)
 		(stroke
 			(width 0)
@@ -44435,7 +44435,7 @@
 	)
 	(bus
 		(pts
-			(xy 125.73 63.5) (xy 130.81 63.5)
+			(xy 125.73 63.5) (xy 125.73 60.96)
 		)
 		(stroke
 			(width 0)
@@ -44445,7 +44445,7 @@
 	)
 	(bus
 		(pts
-			(xy 262.89 71.12) (xy 267.97 71.12)
+			(xy 262.89 71.12) (xy 262.89 68.58)
 		)
 		(stroke
 			(width 0)
@@ -44955,7 +44955,7 @@
 	)
 	(hierarchical_label "{XCGPU_DBG}"
 		(shape bidirectional)
-		(at 31.75 71.12 180)
+		(at 34.29 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44966,7 +44966,7 @@
 	)
 	(hierarchical_label "{XCGPU_DBG}"
 		(shape bidirectional)
-		(at 130.81 63.5 0)
+		(at 125.73 60.96 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45010,18 +45010,18 @@
 	)
 	(hierarchical_label "XCGPU{JTAG}"
 		(shape bidirectional)
-		(at 143.51 68.58 180)
+		(at 148.59 66.04 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e02a09c9-fcf9-4d41-b3bc-1e13cb3bff2a")
 	)
 	(hierarchical_label "XCGPU{SPI}"
 		(shape bidirectional)
-		(at 267.97 71.12 0)
+		(at 262.89 68.58 90)
 		(effects
 			(font
 				(size 1.27 1.27)

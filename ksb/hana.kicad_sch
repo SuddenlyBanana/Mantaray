@@ -8953,6 +8953,16 @@
 		)
 		(uuid "2d3fdf1c-1c0e-48a0-bbe8-e071bcdfd039")
 	)
+	(bus
+		(pts
+			(xy 104.14 27.94) (xy 104.14 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f1127f7-0174-473c-afef-a14f20d24a84")
+	)
 	(wire
 		(pts
 			(xy 101.6 121.92) (xy 101.6 137.16)
@@ -9005,7 +9015,7 @@
 	)
 	(bus
 		(pts
-			(xy 106.68 93.98) (xy 111.76 93.98)
+			(xy 109.22 93.98) (xy 111.76 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9395,6 +9405,16 @@
 	)
 	(bus
 		(pts
+			(xy 229.87 60.96) (xy 229.87 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712a70a6-8262-4662-a654-9ba3736e2735")
+	)
+	(bus
+		(pts
 			(xy 229.87 111.76) (xy 229.87 101.6)
 		)
 		(stroke
@@ -9432,16 +9452,6 @@
 			(type default)
 		)
 		(uuid "79c05eff-8358-4add-a571-4c90b43ece36")
-	)
-	(bus
-		(pts
-			(xy 104.14 30.48) (xy 99.06 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a04a310-9ff4-4fc6-b1fc-350b79e075ad")
 	)
 	(wire
 		(pts
@@ -9592,26 +9602,6 @@
 			(type default)
 		)
 		(uuid "9988fce6-c9a1-4150-a074-0d58819c645a")
-	)
-	(bus
-		(pts
-			(xy 106.68 137.16) (xy 111.76 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ab6c4e2-0238-420c-ad45-2fd9bc4c359e")
-	)
-	(bus
-		(pts
-			(xy 229.87 63.5) (xy 234.95 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ee48cf3-ba2e-4adf-9b8a-6aac5246c243")
 	)
 	(wire
 		(pts
@@ -10509,12 +10499,12 @@
 	)
 	(hierarchical_label "{HDMI}"
 		(shape bidirectional)
-		(at 111.76 137.16 0)
+		(at 106.68 137.16 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2b3717c8-acdd-4d70-8ae3-b274745bc86c")
 	)
@@ -10586,18 +10576,18 @@
 	)
 	(hierarchical_label "{VIDEO}"
 		(shape input)
-		(at 99.06 30.48 180)
+		(at 104.14 27.94 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9cecd2be-b1cb-463e-9afc-22e713d3a6db")
 	)
 	(hierarchical_label "{HDMI}"
 		(shape bidirectional)
-		(at 106.68 93.98 180)
+		(at 109.22 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10652,7 +10642,7 @@
 	)
 	(hierarchical_label "{HDMI}"
 		(shape bidirectional)
-		(at 234.95 63.5 0)
+		(at 229.87 60.96 90)
 		(effects
 			(font
 				(size 1.27 1.27)

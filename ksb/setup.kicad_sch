@@ -9032,16 +9032,6 @@
 		)
 		(uuid "31b38bc5-cd9c-4639-a0cd-4705ffbbc205")
 	)
-	(bus
-		(pts
-			(xy 102.87 127) (xy 107.95 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34f01042-6500-4c12-bc79-af6b922f2449")
-	)
 	(wire
 		(pts
 			(xy 87.63 142.24) (xy 97.79 142.24)
@@ -10104,12 +10094,12 @@
 	)
 	(hierarchical_label "SMB{I2C}"
 		(shape bidirectional)
-		(at 107.95 127 0)
+		(at 102.87 127 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "070b9aee-d127-4d1a-bbe0-05294f1bb514")
 	)

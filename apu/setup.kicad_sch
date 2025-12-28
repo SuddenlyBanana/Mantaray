@@ -21858,7 +21858,7 @@
 	)
 	(text "Serial Voltage Identification\n"
 		(exclude_from_sim no)
-		(at 240.284 70.612 0)
+		(at 237.744 72.644 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22582,7 +22582,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 76.2) (xy 227.33 76.2)
+			(xy 222.25 76.2) (xy 224.79 76.2)
 		)
 		(stroke
 			(width 0)
@@ -22812,7 +22812,7 @@
 	)
 	(hierarchical_label "XCGPU{VREG_APS[1..6]}"
 		(shape output)
-		(at 227.33 76.2 0)
+		(at 224.79 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -8590,7 +8590,7 @@
 	)
 	(bus
 		(pts
-			(xy 40.64 143.51) (xy 45.72 143.51)
+			(xy 43.18 143.51) (xy 45.72 143.51)
 		)
 		(stroke
 			(width 0)
@@ -8610,7 +8610,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 60.96) (xy 147.32 60.96)
+			(xy 152.4 60.96) (xy 149.86 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8620,7 +8620,7 @@
 	)
 	(bus
 		(pts
-			(xy 143.51 133.35) (xy 138.43 133.35)
+			(xy 140.97 133.35) (xy 138.43 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8630,7 +8630,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 68.58) (xy 147.32 68.58)
+			(xy 152.4 68.58) (xy 149.86 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8740,7 +8740,7 @@
 	)
 	(bus
 		(pts
-			(xy 143.51 156.21) (xy 138.43 156.21)
+			(xy 140.97 156.21) (xy 138.43 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8860,7 +8860,7 @@
 	)
 	(bus
 		(pts
-			(xy 265.43 30.48) (xy 270.51 30.48)
+			(xy 265.43 30.48) (xy 265.43 27.94)
 		)
 		(stroke
 			(width 0)
@@ -8940,7 +8940,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 76.2) (xy 147.32 76.2)
+			(xy 152.4 76.2) (xy 149.86 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8960,7 +8960,7 @@
 	)
 	(bus
 		(pts
-			(xy 151.13 92.71) (xy 146.05 92.71)
+			(xy 148.59 92.71) (xy 146.05 92.71)
 		)
 		(stroke
 			(width 0)
@@ -9020,7 +9020,7 @@
 	)
 	(bus
 		(pts
-			(xy 250.19 58.42) (xy 255.27 58.42)
+			(xy 250.19 58.42) (xy 252.73 58.42)
 		)
 		(stroke
 			(width 0)
@@ -9110,7 +9110,7 @@
 	)
 	(bus
 		(pts
-			(xy 45.72 100.33) (xy 50.8 100.33)
+			(xy 48.26 100.33) (xy 50.8 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9250,7 +9250,7 @@
 	)
 	(bus
 		(pts
-			(xy 250.19 50.8) (xy 255.27 50.8)
+			(xy 250.19 50.8) (xy 252.73 50.8)
 		)
 		(stroke
 			(width 0)
@@ -9310,7 +9310,7 @@
 	)
 	(bus
 		(pts
-			(xy 255.27 81.28) (xy 260.35 81.28)
+			(xy 255.27 81.28) (xy 257.81 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9420,7 +9420,7 @@
 	)
 	(bus
 		(pts
-			(xy 265.43 91.44) (xy 260.35 91.44)
+			(xy 262.89 91.44) (xy 260.35 91.44)
 		)
 		(stroke
 			(width 0)
@@ -9530,7 +9530,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 83.82) (xy 147.32 83.82)
+			(xy 152.4 83.82) (xy 149.86 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9590,7 +9590,7 @@
 	)
 	(bus
 		(pts
-			(xy 250.19 66.04) (xy 255.27 66.04)
+			(xy 250.19 66.04) (xy 252.73 66.04)
 		)
 		(stroke
 			(width 0)
@@ -9920,7 +9920,7 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 30.48) (xy 142.24 30.48)
+			(xy 142.24 27.94) (xy 142.24 30.48)
 		)
 		(stroke
 			(width 0)
@@ -9950,7 +9950,7 @@
 	)
 	(bus
 		(pts
-			(xy 143.51 110.49) (xy 138.43 110.49)
+			(xy 140.97 110.49) (xy 138.43 110.49)
 		)
 		(stroke
 			(width 0)
@@ -10210,7 +10210,7 @@
 	)
 	(bus
 		(pts
-			(xy 40.64 120.65) (xy 45.72 120.65)
+			(xy 43.18 120.65) (xy 45.72 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10308,7 +10308,7 @@
 		)
 		(uuid "07908a66-7070-44d6-a385-38d8ac34d19b")
 	)
-	(label "EXPPORT_PORT3.D+"
+	(label "EXPPORT_PORT1.D+"
 		(at 175.26 78.74 180)
 		(effects
 			(font
@@ -10428,7 +10428,7 @@
 		)
 		(uuid "41c5d25e-1f2a-415a-b144-32b69ac099ea")
 	)
-	(label "EXPPORT_PORT2.D-"
+	(label "EXPPORT_PORT0.D-"
 		(at 175.26 88.9 180)
 		(effects
 			(font
@@ -10448,7 +10448,7 @@
 		)
 		(uuid "434656ec-5d8d-4723-a56d-e419ebe7b154")
 	)
-	(label "EXPPORT_PORT1.D+"
+	(label "EXPPORT_PORT2.D+"
 		(at 175.26 71.12 180)
 		(effects
 			(font
@@ -10588,7 +10588,7 @@
 		)
 		(uuid "6e679b48-12c1-4b9e-9b97-5f9fb7adaf57")
 	)
-	(label "EXPPORT_PORT3.D-"
+	(label "EXPPORT_PORT1.D-"
 		(at 175.26 81.28 180)
 		(effects
 			(font
@@ -10658,7 +10658,7 @@
 		)
 		(uuid "8b4c180a-b8fe-4dbb-96bf-b935e170239d")
 	)
-	(label "EXPPORT_PORT2.D+"
+	(label "EXPPORT_PORT0.D+"
 		(at 175.26 86.36 180)
 		(effects
 			(font
@@ -10778,7 +10778,7 @@
 		)
 		(uuid "a9c398a0-12a3-4279-9c52-6feea127c3aa")
 	)
-	(label "EXPPORT_PORT1.D-"
+	(label "EXPPORT_PORT2.D-"
 		(at 175.26 73.66 180)
 		(effects
 			(font
@@ -10888,7 +10888,7 @@
 		)
 		(uuid "c1563138-c4f8-4534-aaa8-05d7055b4d59")
 	)
-	(label "EXPPORT_RJ45.D-"
+	(label "EXPPORT_PORT3.D-"
 		(at 175.26 66.04 180)
 		(effects
 			(font
@@ -10998,7 +10998,7 @@
 		)
 		(uuid "e5c63396-d005-4c20-8933-52f65bc37cfa")
 	)
-	(label "EXPPORT_RJ45.D+"
+	(label "EXPPORT_PORT3.D+"
 		(at 175.26 63.5 180)
 		(effects
 			(font
@@ -11030,7 +11030,7 @@
 	)
 	(hierarchical_label "GAMEPORT2{USB}"
 		(shape bidirectional)
-		(at 255.27 50.8 0)
+		(at 252.73 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11050,9 +11050,9 @@
 		)
 		(uuid "079df113-4ff9-4349-b4f1-a0a2924d6bab")
 	)
-	(hierarchical_label "EXPPORT_PORT1{USB}"
+	(hierarchical_label "EXPPORT_PORT2{USB}"
 		(shape bidirectional)
-		(at 147.32 68.58 180)
+		(at 149.86 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11063,7 +11063,7 @@
 	)
 	(hierarchical_label "SMC{P2_GPIO[0..7]}"
 		(shape bidirectional)
-		(at 143.51 110.49 0)
+		(at 140.97 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11072,9 +11072,9 @@
 		)
 		(uuid "18ba46cf-b02c-4817-bba8-f5e1309c2df4")
 	)
-	(hierarchical_label "EXPPORT_PORT2{USB}"
+	(hierarchical_label "EXPPORT_PORT0{USB}"
 		(shape bidirectional)
-		(at 147.32 83.82 180)
+		(at 149.86 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11083,9 +11083,9 @@
 		)
 		(uuid "28718059-dc44-42d1-a418-c80e8df2fd8f")
 	)
-	(hierarchical_label "EXPPORT_PORT3{USB}"
+	(hierarchical_label "EXPPORT_PORT1{USB}"
 		(shape bidirectional)
-		(at 147.32 76.2 180)
+		(at 149.86 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11096,18 +11096,18 @@
 	)
 	(hierarchical_label "{FLASH}"
 		(shape bidirectional)
-		(at 137.16 30.48 180)
+		(at 142.24 27.94 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4e0ecb43-3713-4785-8e5c-05485c8f7514")
 	)
 	(hierarchical_label "SMC{P3_GPIO[0..7]}"
 		(shape bidirectional)
-		(at 40.64 143.51 180)
+		(at 43.18 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11118,7 +11118,7 @@
 	)
 	(hierarchical_label "{FLASH}"
 		(shape bidirectional)
-		(at 270.51 30.48 0)
+		(at 265.43 27.94 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11129,7 +11129,7 @@
 	)
 	(hierarchical_label "BORONFPMPORT{USB}"
 		(shape bidirectional)
-		(at 260.35 81.28 0)
+		(at 257.81 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11140,7 +11140,7 @@
 	)
 	(hierarchical_label "WAVEPORT{USB}"
 		(shape bidirectional)
-		(at 255.27 58.42 0)
+		(at 252.73 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11151,7 +11151,7 @@
 	)
 	(hierarchical_label "SMC{UART}"
 		(shape bidirectional)
-		(at 45.72 100.33 180)
+		(at 48.26 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11184,7 +11184,7 @@
 	)
 	(hierarchical_label "KSB{SPI}"
 		(shape bidirectional)
-		(at 265.43 91.44 0)
+		(at 262.89 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11206,7 +11206,7 @@
 	)
 	(hierarchical_label "SMC{P0_GPIO[0..7]}"
 		(shape bidirectional)
-		(at 143.51 156.21 0)
+		(at 140.97 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11217,7 +11217,7 @@
 	)
 	(hierarchical_label "SMC{UART}"
 		(shape bidirectional)
-		(at 151.13 92.71 0)
+		(at 148.59 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11228,7 +11228,7 @@
 	)
 	(hierarchical_label "SMC{P1_GPIO[0..7]}"
 		(shape bidirectional)
-		(at 143.51 133.35 0)
+		(at 140.97 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11239,7 +11239,7 @@
 	)
 	(hierarchical_label "GAMEPORT1{USB}"
 		(shape bidirectional)
-		(at 255.27 66.04 0)
+		(at 252.73 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11250,7 +11250,7 @@
 	)
 	(hierarchical_label "SMC{P4_GPIO[0..7]}"
 		(shape bidirectional)
-		(at 40.64 120.65 180)
+		(at 43.18 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11259,9 +11259,9 @@
 		)
 		(uuid "c5502d8e-14f6-48d4-8ba0-fcf40853e0db")
 	)
-	(hierarchical_label "EXPPORT_PORT4{USB}"
+	(hierarchical_label "EXPPORT_PORT3{USB}"
 		(shape bidirectional)
-		(at 147.32 60.96 180)
+		(at 149.86 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)

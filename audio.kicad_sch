@@ -640,7 +640,7 @@
 	)
 	(bus
 		(pts
-			(xy 121.92 80.01) (xy 116.84 80.01)
+			(xy 121.92 80.01) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -750,12 +750,12 @@
 	)
 	(hierarchical_label "{I2S}"
 		(shape input)
-		(at 116.84 80.01 180)
+		(at 121.92 77.47 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "49cde33d-8730-49f0-bb0c-bc7805b8e12f")
 	)

@@ -23113,7 +23113,7 @@
 	)
 	(bus
 		(pts
-			(xy 36.83 22.86) (xy 41.91 22.86)
+			(xy 39.37 22.86) (xy 41.91 22.86)
 		)
 		(stroke
 			(width 0)
@@ -23403,7 +23403,7 @@
 	)
 	(bus
 		(pts
-			(xy 252.73 22.86) (xy 257.81 22.86)
+			(xy 252.73 22.86) (xy 255.27 22.86)
 		)
 		(stroke
 			(width 0)
@@ -25013,7 +25013,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 22.86) (xy 138.43 22.86)
+			(xy 133.35 22.86) (xy 135.89 22.86)
 		)
 		(stroke
 			(width 0)
@@ -25673,7 +25673,7 @@
 	)
 	(bus
 		(pts
-			(xy 156.21 20.32) (xy 161.29 20.32)
+			(xy 158.75 20.32) (xy 161.29 20.32)
 		)
 		(stroke
 			(width 0)
@@ -28233,7 +28233,7 @@
 	)
 	(hierarchical_label "MC{SDRAM}"
 		(shape bidirectional)
-		(at 36.83 22.86 180)
+		(at 39.37 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28244,7 +28244,7 @@
 	)
 	(hierarchical_label "MC{SDRAM}"
 		(shape bidirectional)
-		(at 138.43 22.86 0)
+		(at 135.89 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28255,7 +28255,7 @@
 	)
 	(hierarchical_label "MD{SDRAM}"
 		(shape bidirectional)
-		(at 156.21 20.32 180)
+		(at 158.75 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28266,7 +28266,7 @@
 	)
 	(hierarchical_label "MD{SDRAM}"
 		(shape bidirectional)
-		(at 257.81 22.86 0)
+		(at 255.27 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)

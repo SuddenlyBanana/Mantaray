@@ -5865,6 +5865,16 @@
 		)
 		(uuid "1c5aedde-4945-465a-a70c-9e776d25df14")
 	)
+	(bus
+		(pts
+			(xy 106.68 63.5) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d966477-9543-47f7-9084-853c3dba266f")
+	)
 	(wire
 		(pts
 			(xy 198.12 104.14) (xy 200.66 104.14)
@@ -5917,7 +5927,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 201.93) (xy 213.36 201.93)
+			(xy 213.36 199.39) (xy 213.36 201.93)
 		)
 		(stroke
 			(width 0)
@@ -6875,6 +6885,16 @@
 		)
 		(uuid "87795cea-d1ab-4d2c-a1e1-b54c8a527145")
 	)
+	(bus
+		(pts
+			(xy 187.96 96.52) (xy 187.96 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882bdf3d-7974-4886-91c0-542c9cc0d65b")
+	)
 	(wire
 		(pts
 			(xy 111.76 104.14) (xy 111.76 119.38)
@@ -6987,7 +7007,7 @@
 	)
 	(bus
 		(pts
-			(xy 177.8 148.59) (xy 182.88 148.59)
+			(xy 182.88 146.05) (xy 182.88 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7034,16 +7054,6 @@
 			(type default)
 		)
 		(uuid "96fa7532-73e0-4037-95be-8a5d6e007289")
-	)
-	(bus
-		(pts
-			(xy 182.88 99.06) (xy 187.96 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97d96f7f-920f-4f2f-ab70-99ea7d90cc9c")
 	)
 	(wire
 		(pts
@@ -7394,16 +7404,6 @@
 			(type default)
 		)
 		(uuid "bf81bc95-6158-4229-b4ed-c19cb1d284b9")
-	)
-	(bus
-		(pts
-			(xy 101.6 66.04) (xy 106.68 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfeb93af-c61d-426a-958f-cac8878dd976")
 	)
 	(wire
 		(pts
@@ -8519,34 +8519,34 @@
 	)
 	(hierarchical_label "{HDMI}"
 		(shape bidirectional)
-		(at 101.6 66.04 180)
+		(at 106.68 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1256e3f2-992a-4079-9f46-85176396ebb1")
 	)
 	(hierarchical_label "{HDMI}"
 		(shape bidirectional)
-		(at 208.28 201.93 180)
+		(at 213.36 199.39 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "16d6299c-37b9-491e-a72e-246b2ba21e29")
 	)
 	(hierarchical_label "{HDMI}"
 		(shape bidirectional)
-		(at 177.8 148.59 180)
+		(at 182.88 146.05 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "19359ca2-9336-4378-8ad3-081a4c77abd1")
 	)
@@ -8594,7 +8594,7 @@
 		)
 		(uuid "445f6994-a3ab-40b3-b4e5-6374f39a6b2e")
 	)
-	(hierarchical_label "EXPPORT_PORT4{USB}"
+	(hierarchical_label "EXPPORT_PORT3{USB}"
 		(shape bidirectional)
 		(at 218.44 44.45 180)
 		(effects
@@ -8607,12 +8607,12 @@
 	)
 	(hierarchical_label "{ETHERNET}"
 		(shape bidirectional)
-		(at 182.88 99.06 180)
+		(at 187.96 96.52 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "7b9909cf-0117-4c81-b24c-2d9979c8e13c")
 	)
@@ -8726,9 +8726,9 @@
 		)
 		(uuid "a85301d8-10ba-4da1-9749-632607a0b9b8")
 	)
-	(hierarchical_label "EXPPORT_PORT3{USB}"
+	(hierarchical_label "EXPPORT_PORT1{USB}"
 		(shape bidirectional)
-		(at 218.44 41.91 180)
+		(at 218.44 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8748,9 +8748,9 @@
 		)
 		(uuid "c0348c7c-e626-4ef5-9bfb-f8b5d605adb6")
 	)
-	(hierarchical_label "EXPPORT_PORT1{USB}"
+	(hierarchical_label "EXPPORT_PORT2{USB}"
 		(shape bidirectional)
-		(at 218.44 26.67 180)
+		(at 218.44 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8781,9 +8781,9 @@
 		)
 		(uuid "c7be6c79-631d-456b-bf95-7e32c5e6d509")
 	)
-	(hierarchical_label "EXPPORT_PORT2{USB}"
+	(hierarchical_label "EXPPORT_PORT0{USB}"
 		(shape bidirectional)
-		(at 218.44 29.21 180)
+		(at 218.44 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
