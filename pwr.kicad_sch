@@ -535,31 +535,46 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x02_Top_Bottom"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "Regulator_Linear:NCP1117-1.5_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 2.54 0)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x02_Top_Bottom"
-				(at 1.27 -5.08 0)
+			(property "Value" "NCP1117-1.5_SOT223"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low drop-out regulator, Fixed Output 1.5V, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -568,7 +583,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "ki_keywords" "REGULATOR LDO 1.5V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -577,7 +592,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -586,28 +601,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_02x02_Top_Bottom_1_1"
+			(symbol "NCP1117-1.5_SOT223_0_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 3.81 -3.81)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -616,90 +613,12 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_3"
+			)
+			(symbol "NCP1117-1.5_SOT223_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -714,17 +633,172 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:NCP1117-1.8_SOT223"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NCP1117-1.8_SOT223"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low drop-out regulator, Fixed Output 1.8V, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "REGULATOR LDO 1.8V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NCP1117-1.8_SOT223_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NCP1117-1.8_SOT223_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1110,6 +1184,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:-12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-12V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-12V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1212,21 +1387,27 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 92.71 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bef21bdd-6a5e-4cd3-935e-9be125ead083")
+	(text "Additional Power Rails:\n- 1.2V\n- 1.8V\nStandby:\n- 1.2V_{SB}\n- 3.3V_{SB}\n- 5V_{DUAL}\n\n"
+		(exclude_from_sim no)
+		(at 87.63 25.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72a11888-ce14-4248-8bee-6f0951e84184")
 	)
-	(junction
-		(at 67.31 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8faaad9-d6fe-43d2-9759-e22c57f48c47")
-	)
-	(no_connect
-		(at 62.23 54.61)
-		(uuid "6928e96d-7763-4f38-abcb-5d05bbee0314")
+	(text "XCGPU Power Rails:\n- V_CPUCORE (0.9V - 1.2V)\n- V_CPUEDRAM (1.075V)\n- V_MEM (1.8V)\n- V_CPUVCS (1.25V - 1.3V)\nLow Power:\n- V_GPUPCIE (1.5V)\n- V_EFUSE (1.5V)"
+		(exclude_from_sim no)
+		(at 115.824 25.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7aaeba3-cd36-4cca-b226-8a39b9911957")
 	)
 	(wire
 		(pts
@@ -1237,26 +1418,6 @@
 			(type default)
 		)
 		(uuid "212f4a7a-c7f6-44c1-a10b-f9cf5c3f866b")
-	)
-	(wire
-		(pts
-			(xy 69.85 63.5) (xy 67.31 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a4db7ad-a540-4f5d-8882-10e311d769c9")
-	)
-	(wire
-		(pts
-			(xy 82.55 63.5) (xy 92.71 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "300da465-9e10-4932-b1f1-76335f8c1e85")
 	)
 	(wire
 		(pts
@@ -1290,16 +1451,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 66.04) (xy 69.85 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52c9ea00-837e-4aed-9e32-c3554a4b4700")
-	)
-	(wire
-		(pts
 			(xy 92.71 44.45) (xy 92.71 46.99)
 		)
 		(stroke
@@ -1307,16 +1458,6 @@
 			(type default)
 		)
 		(uuid "5a3a3835-9a06-4d31-af06-7acf8d5411af")
-	)
-	(wire
-		(pts
-			(xy 82.55 66.04) (xy 92.71 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6154f2da-9fd3-47a7-a040-dde3a9930eef")
 	)
 	(wire
 		(pts
@@ -1330,16 +1471,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 63.5) (xy 67.31 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79659000-1787-4a31-a727-ce7ef72669bc")
-	)
-	(wire
-		(pts
 			(xy 77.47 36.83) (xy 77.47 39.37)
 		)
 		(stroke
@@ -1347,16 +1478,6 @@
 			(type default)
 		)
 		(uuid "8dcecf8a-0736-46f7-9564-a32ad8e923f7")
-	)
-	(wire
-		(pts
-			(xy 67.31 66.04) (xy 67.31 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c72b5792-402e-474b-a4bb-98d5c8ce0880")
 	)
 	(wire
 		(pts
@@ -1370,23 +1491,45 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 60.96) (xy 92.71 63.5)
+			(xy 62.23 54.61) (xy 64.77 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db48fc6b-df11-4a47-b322-3fb5eeb4b62c")
+		(uuid "dc66dce4-7e2c-4b06-a62b-7b454cf7cc32")
 	)
 	(wire
 		(pts
-			(xy 92.71 66.04) (xy 92.71 63.5)
+			(xy 64.77 54.61) (xy 64.77 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de934349-f20e-4cc3-bdf7-31b980623c0e")
+		(uuid "dd64a38a-0390-4d4f-8152-4e7a4ca26681")
+	)
+	(hierarchical_label "PWR_EN"
+		(shape input)
+		(at 36.83 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0acf975a-39ba-4099-a619-9927d6cca42c")
+	)
+	(hierarchical_label "ATX_PWRGD"
+		(shape output)
+		(at 62.23 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee60c13b-d0ed-4ade-a464-d6898352c7bc")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -1589,17 +1732,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 92.71 60.96 0)
+		(lib_id "Regulator_Linear:NCP1117-1.5_SOT223")
+		(at 144.78 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3257d243-ea38-4222-82f0-9c2150f7196f")
-		(property "Reference" "#PWR0151"
-			(at 92.71 64.77 0)
+		(uuid "550a706f-df90-4bd7-b5fc-20c1956fe8c4")
+		(property "Reference" "U13"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCP1117-1.5_SOT223"
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 144.78 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,16 +1766,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 92.71 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 60.96 0)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+			(at 147.32 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,105 +1775,28 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 92.71 60.96 0)
+		(property "Description" "1A Low drop-out regulator, Fixed Output 1.5V, SOT-223"
+			(at 144.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 92.71 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5485cae6-8fea-4cd2-9c53-61773338cc3b")
-		)
-		(instances
-			(project "StingBurst"
-				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/2571ed45-33bb-462a-b8a7-fd5672545e72"
-					(reference "#PWR0151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 74.93 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c718c01-fae0-450b-9d9f-67866cc690a8")
-		(property "Reference" "J3"
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x02_Top_Bottom"
-			(at 76.2 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fbdc31b7-a59b-4723-9e54-0abc28e07308")
-		)
-		(pin "1"
-			(uuid "b7ee48e8-c568-44d7-9e04-af584df20ff4")
-		)
-		(pin "4"
-			(uuid "d17cda8b-a48a-47be-9530-0cd48759555d")
 		)
 		(pin "3"
-			(uuid "c7d107c2-9406-4894-a6aa-a4022f749bb4")
+			(uuid "028a7f44-fc7a-4177-b413-fcbaa17bd7b2")
+		)
+		(pin "1"
+			(uuid "7b5160ad-d6da-416c-a05e-02d01fb69997")
+		)
+		(pin "2"
+			(uuid "7d36f886-9db1-4728-9ea6-2ab1dbff60b5")
 		)
 		(instances
-			(project "StingBurst"
+			(project ""
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/2571ed45-33bb-462a-b8a7-fd5672545e72"
-					(reference "J3")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -1861,17 +1935,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 67.31 68.58 0)
+		(lib_id "power:-12V")
+		(at 64.77 57.15 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa07f99b-0ac3-477f-a3ea-9624c231618a")
-		(property "Reference" "#PWR0175"
-			(at 67.31 74.93 0)
+		(uuid "db133071-b884-41b1-bf1b-2e2d12846941")
+		(property "Reference" "#PWR0151"
+			(at 64.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,8 +1953,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 67.31 73.66 0)
+		(property "Value" "-12V"
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 68.58 0)
+			(at 64.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +1971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 68.58 0)
+			(at 64.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,8 +1979,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 64.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,12 +1989,83 @@
 			)
 		)
 		(pin "1"
-			(uuid "b330be33-8649-474e-b021-64e3a5a0d34f")
+			(uuid "1016bb6c-ba5c-46bb-923c-d3e213ed755b")
 		)
 		(instances
-			(project "StingBurst"
+			(project ""
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/2571ed45-33bb-462a-b8a7-fd5672545e72"
-					(reference "#PWR0175")
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:NCP1117-1.8_SOT223")
+		(at 93.98 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e656af76-73cf-421e-9d15-0cafe179a335")
+		(property "Reference" "U11"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCP1117-1.8_SOT223"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+			(at 96.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low drop-out regulator, Fixed Output 1.8V, SOT-223"
+			(at 93.98 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a7abc5c-01b5-4714-8c73-5e5bac187f58")
+		)
+		(pin "1"
+			(uuid "6e958e12-7848-4b4e-8e96-78032e32e3a7")
+		)
+		(pin "3"
+			(uuid "0b2b8227-c6fe-4043-a826-4b18d590c42b")
+		)
+		(instances
+			(project ""
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/2571ed45-33bb-462a-b8a7-fd5672545e72"
+					(reference "U11")
 					(unit 1)
 				)
 			)

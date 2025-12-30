@@ -8,6 +8,17 @@
 	(bus_alias "VIDEO"
 		(members "PIX_DATA[0..14]" "PIX_CLK" "VSYNC_OUT" "HSYNC_OUT")
 	)
+	(text "Board Jumpers:\n- JP1: CPU Debug Enable\n- JP2: GPU Debug Enable\n- JP3:\n- JP4: External ROM Enable\n- JP5\n- JP6: SMC Debug Mode"
+		(exclude_from_sim no)
+		(at 19.05 23.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57a9728c-eeac-407a-a319-ad7090877b12")
+	)
 	(text "TODO:\n- Power Delivery\n- Audio Out\n- NAND/eMMC\n- Replace generic components with real part numbers\n"
 		(exclude_from_sim no)
 		(at 1.524 -10.16 0)
@@ -351,6 +362,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 134.62) (xy 180.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3357a6b4-8111-4e8b-b50f-dab6cb8b40f5")
+	)
+	(wire
+		(pts
 			(xy 162.56 170.18) (xy 152.4 170.18)
 		)
 		(stroke
@@ -368,6 +389,16 @@
 			(type default)
 		)
 		(uuid "34671c02-eff2-4efc-81d5-2d3be8cfed72")
+	)
+	(wire
+		(pts
+			(xy 172.72 111.76) (xy 172.72 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39843a93-bb01-4481-82f4-98efbad9ad76")
 	)
 	(wire
 		(pts
@@ -571,6 +602,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 111.76) (xy 172.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6551d46f-4ebb-44b3-abdc-2f09b58b0ca9")
+	)
+	(wire
+		(pts
 			(xy 44.45 166.37) (xy 31.75 166.37)
 		)
 		(stroke
@@ -601,7 +642,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 134.62) (xy 218.44 134.62)
+			(xy 208.28 134.62) (xy 223.52 134.62)
 		)
 		(stroke
 			(width 0)
@@ -641,7 +682,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 132.08) (xy 218.44 132.08)
+			(xy 208.28 132.08) (xy 223.52 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1770,7 +1811,7 @@
 		(uuid "88fd4602-5a24-47c0-b2f8-e3e5afb4f20a")
 	)
 	(label "AUDIO_L_OUT"
-		(at 218.44 134.62 180)
+		(at 223.52 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1940,7 +1981,7 @@
 		(uuid "b915693b-ab4f-43fd-b115-f082da98a449")
 	)
 	(label "AUDIO_R_OUT"
-		(at 218.44 132.08 180)
+		(at 223.52 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2131,7 +2172,7 @@
 	)
 	(sheet
 		(at 180.34 128.27)
-		(size 22.86 8.89)
+		(size 27.94 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2164,7 +2205,7 @@
 			)
 		)
 		(pin "AUDIO_L_OUT" output
-			(at 203.2 134.62 0)
+			(at 208.28 134.62 0)
 			(uuid "55538ee0-9fce-4be4-b4a5-51ce7786ffb3")
 			(effects
 				(font
@@ -2174,7 +2215,7 @@
 			)
 		)
 		(pin "AUDIO_R_OUT" output
-			(at 203.2 132.08 0)
+			(at 208.28 132.08 0)
 			(uuid "56d7a031-8858-4c7f-861c-3a90a714c012")
 			(effects
 				(font
@@ -2186,6 +2227,16 @@
 		(pin "{I2S}" input
 			(at 180.34 132.08 180)
 			(uuid "d1c8b102-32d6-4665-9163-baf3f7280aff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUD_RST_N" input
+			(at 180.34 134.62 180)
+			(uuid "d4647833-feab-45a5-9b9b-0dc1fe069779")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,8 +2605,8 @@
 		)
 	)
 	(sheet
-		(at 39.37 80.01)
-		(size 17.78 11.43)
+		(at 38.1 80.01)
+		(size 22.86 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2570,7 +2621,7 @@
 		)
 		(uuid "2571ed45-33bb-462a-b8a7-fd5672545e72")
 		(property "Sheetname" "Power Delivery"
-			(at 39.37 79.2984 0)
+			(at 38.1 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,12 +2630,32 @@
 			)
 		)
 		(property "Sheetfile" "pwr.kicad_sch"
-			(at 39.37 92.0246 0)
+			(at 38.1 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ATX_PWRGD" output
+			(at 60.96 83.82 0)
+			(uuid "3075b769-1c2e-47af-b75a-96cd42a7b5c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_EN" input
+			(at 38.1 83.82 180)
+			(uuid "94ebff25-51cb-4d37-b45b-a2d1b8e9991f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -3465,7 +3536,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "86893552-f2ab-490f-a69f-dd39edeb22d8")
-		(property "Sheetname" "EMMC"
+		(property "Sheetname" "FLASH"
 			(at 41.91 47.5484 0)
 			(effects
 				(font
@@ -3474,13 +3545,23 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "emmc.kicad_sch"
+		(property "Sheetfile" "flash.kicad_sch"
 			(at 41.91 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{FLASH}" bidirectional
+			(at 41.91 52.07 180)
+			(uuid "e8ad7b18-3aa9-428d-9ad2-55f1af0ed92d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -3951,48 +4032,6 @@
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
 					(page "29")
-				)
-			)
-		)
-	)
-	(sheet
-		(at -1.27 -17.78)
-		(size 62.23 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ff703b57-aa0b-44f6-a06f-2a6672008282")
-		(property "Sheetname" "TODO"
-			(at -1.27 -18.4916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "control.kicad_sch"
-			(at -1.27 -1.9554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Mantaray"
-				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0"
-					(page "22")
 				)
 			)
 		)

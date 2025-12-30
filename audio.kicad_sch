@@ -770,6 +770,17 @@
 		)
 		(uuid "8ba2776c-c27d-4dec-ac8b-29cdae6d645f")
 	)
+	(hierarchical_label "AUD_RST_N"
+		(shape input)
+		(at 120.65 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edcaa025-3e12-4d2d-9067-534523900ae9")
+	)
 	(hierarchical_label "AUDIO_R_OUT"
 		(shape output)
 		(at 165.1 85.09 0)

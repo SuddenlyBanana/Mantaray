@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "X360")(type "KiCad")(uri "/Users/niko/Projects/Mantaray/X360.pretty")(options "")(descr ""))
+)

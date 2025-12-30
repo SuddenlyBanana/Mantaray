@@ -8245,13 +8245,13 @@
 		)
 	)
 	(junction
-		(at 200.66 45.72)
+		(at 199.39 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07c09e2e-8d19-4141-937d-04ac694fcbb3")
 	)
 	(junction
-		(at 200.66 50.8)
+		(at 199.39 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "085c90f2-ae98-4b89-8333-07f700118e2d")
@@ -8287,19 +8287,19 @@
 		(uuid "599b4fe6-8697-4b37-9c77-7449966a17ae")
 	)
 	(junction
-		(at 67.31 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a9a29e9-b4bd-41b1-be52-c9cbe8e3e486")
-	)
-	(junction
 		(at 209.55 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60ecc0bb-dd0c-400e-91cf-ce0a56321df0")
 	)
 	(junction
-		(at 200.66 40.64)
+		(at 68.58 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6752d7b0-812e-4c09-959d-1fb315985006")
+	)
+	(junction
+		(at 199.39 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71bf69f7-4212-4604-9b23-c354b32c4225")
@@ -8755,7 +8755,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 137.16) (xy 191.77 137.16)
+			(xy 176.53 137.16) (xy 189.23 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8845,7 +8845,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 35.56) (xy 200.66 40.64)
+			(xy 199.39 35.56) (xy 199.39 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8975,7 +8975,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 40.64) (xy 200.66 40.64)
+			(xy 176.53 40.64) (xy 199.39 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9055,7 +9055,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 111.76) (xy 67.31 111.76)
+			(xy 66.04 111.76) (xy 68.58 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9065,7 +9065,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 45.72) (xy 200.66 50.8)
+			(xy 199.39 45.72) (xy 199.39 50.8)
 		)
 		(stroke
 			(width 0)
@@ -9085,7 +9085,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 157.48) (xy 91.44 157.48)
+			(xy 88.9 157.48) (xy 91.44 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9285,7 +9285,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 147.32) (xy 91.44 147.32)
+			(xy 88.9 147.32) (xy 91.44 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9305,7 +9305,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 50.8) (xy 200.66 53.34)
+			(xy 199.39 50.8) (xy 199.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9385,16 +9385,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 111.76) (xy 71.12 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d7becfc-a92e-4ce2-bfac-c3021049155f")
-	)
-	(wire
-		(pts
 			(xy 119.38 81.28) (xy 106.68 81.28)
 		)
 		(stroke
@@ -9452,6 +9442,16 @@
 			(type default)
 		)
 		(uuid "79c05eff-8358-4add-a571-4c90b43ece36")
+	)
+	(wire
+		(pts
+			(xy 68.58 111.76) (xy 71.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab54dcb-83be-421b-bb5e-98f8e30dfda1")
 	)
 	(wire
 		(pts
@@ -9785,7 +9785,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 45.72) (xy 200.66 45.72)
+			(xy 176.53 45.72) (xy 199.39 45.72)
 		)
 		(stroke
 			(width 0)
@@ -9805,7 +9805,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 107.95) (xy 67.31 111.76)
+			(xy 68.58 109.22) (xy 68.58 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9895,7 +9895,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 40.64) (xy 200.66 45.72)
+			(xy 199.39 40.64) (xy 199.39 45.72)
 		)
 		(stroke
 			(width 0)
@@ -9935,7 +9935,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 137.16) (xy 91.44 137.16)
+			(xy 88.9 137.16) (xy 91.44 137.16)
 		)
 		(stroke
 			(width 0)
@@ -10045,7 +10045,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 35.56) (xy 200.66 35.56)
+			(xy 176.53 35.56) (xy 199.39 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10065,7 +10065,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 50.8) (xy 176.53 50.8)
+			(xy 199.39 50.8) (xy 176.53 50.8)
 		)
 		(stroke
 			(width 0)
@@ -10234,7 +10234,7 @@
 		(uuid "60209ef6-28ac-4108-a12a-92817a6b9601")
 	)
 	(label "BRD_TEMP_P"
-		(at 191.77 137.16 180)
+		(at 189.23 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10466,7 +10466,7 @@
 	)
 	(hierarchical_label "SMC_PWM0"
 		(shape input)
-		(at 63.5 111.76 180)
+		(at 66.04 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10477,7 +10477,7 @@
 	)
 	(hierarchical_label "EDRAM_TEMP_N_KSB"
 		(shape input)
-		(at 87.63 157.48 180)
+		(at 88.9 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10554,7 +10554,7 @@
 	)
 	(hierarchical_label "CPU_TEMP_N_KSB"
 		(shape input)
-		(at 87.63 137.16 180)
+		(at 88.9 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10620,7 +10620,7 @@
 	)
 	(hierarchical_label "GPU_TEMP_N_KSB"
 		(shape input)
-		(at 87.63 147.32 180)
+		(at 88.9 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10869,7 +10869,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 53.34 0)
+		(at 199.39 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10878,7 +10878,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e995b40-0311-4544-bde4-3a262b4fa3be")
 		(property "Reference" "#PWR0106"
-			(at 200.66 59.69 0)
+			(at 199.39 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10887,7 +10887,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 58.42 0)
+			(at 199.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10895,7 +10895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 53.34 0)
+			(at 199.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10904,7 +10904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 53.34 0)
+			(at 199.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10913,7 +10913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 53.34 0)
+			(at 199.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11604,7 +11604,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 67.31 107.95 0)
+		(at 68.58 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11612,7 +11612,7 @@
 		(dnp no)
 		(uuid "48bb397b-7994-46d9-93f1-7824bb7e439f")
 		(property "Reference" "TP17"
-			(at 68.58 104.648 0)
+			(at 69.85 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11621,7 +11621,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 69.85 105.9179 0)
+			(at 71.12 107.1879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,7 +11631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 107.95 0)
+			(at 73.66 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11640,7 +11640,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 107.95 0)
+			(at 73.66 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11649,7 +11649,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 67.31 107.95 0)
+			(at 68.58 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

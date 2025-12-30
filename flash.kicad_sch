@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2ab3d9fa-c09e-4443-b5d7-b05d152a0d1a")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "{FLASH}"
+		(shape bidirectional)
+		(at 90.17 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0fe0552-219b-485e-a6c5-b9521fa7d6b3")
+	)
+)
