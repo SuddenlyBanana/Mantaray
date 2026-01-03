@@ -19,7 +19,7 @@
 		)
 		(uuid "57a9728c-eeac-407a-a319-ad7090877b12")
 	)
-	(text "TODO:\n- Power Delivery\n- Audio Out\n- NAND/eMMC\n- Replace generic components with real part numbers\n"
+	(text "TODO:\n- Power Delivery\n- NAND/eMMC\n- Replace generic components with real part numbers\n"
 		(exclude_from_sim no)
 		(at 1.524 -10.16 0)
 		(effects
