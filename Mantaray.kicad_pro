@@ -532,6 +532,10 @@
     [
       "cc308790-ec7c-4071-93af-221aae7f0fb4",
       "Internal Connectors"
+    ],
+    [
+      "f73644f9-7031-46ce-a27d-051daa072fe8",
+      "Debug Connectors"
     ]
   ],
   "text_variables": {}
