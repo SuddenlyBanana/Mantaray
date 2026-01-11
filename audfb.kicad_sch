@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "68a052dd-dfb3-4af9-a2e7-8ac661222862")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "EJECTSW_N"
+		(shape input)
+		(at 96.52 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10747f61-8598-45bb-876e-6bfc2e7d0b5c")
+	)
+	(hierarchical_label "AUD_RDY_BSBY"
+		(shape input)
+		(at 96.52 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19c75a76-c411-4092-a8a6-9703dcd738fb")
+	)
+	(hierarchical_label "PWRSW_N"
+		(shape input)
+		(at 96.52 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b375c55-1bef-43ec-b3c2-fb74817f2b2f")
+	)
+	(hierarchical_label "SPKR_DRIVE_P"
+		(shape output)
+		(at 106.68 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "353e8128-924a-4ada-9882-e675292d58ed")
+	)
+	(hierarchical_label "AUDFB{SPI}"
+		(shape bidirectional)
+		(at 96.52 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "772662e9-cef3-4ef0-93ac-0b5c464de485")
+	)
+	(hierarchical_label "SPKR_DRIVE_N"
+		(shape output)
+		(at 106.68 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc0b5945-c80c-42d2-b3a9-23e89bbdf95c")
+	)
+)

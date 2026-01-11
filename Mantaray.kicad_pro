@@ -506,6 +506,10 @@
       "AUDIO OUT"
     ],
     [
+      "43b2b36e-0621-4dbe-8792-72bc25113ecd",
+      "AUDIBLE FEEDBACK"
+    ],
+    [
       "2571ed45-33bb-462a-b8a7-fd5672545e72",
       "Power Delivery"
     ],
@@ -532,6 +536,14 @@
     [
       "cc308790-ec7c-4071-93af-221aae7f0fb4",
       "Internal Connectors"
+    ],
+    [
+      "6ec1175a-a533-45d1-992f-35a75dc24d62",
+      "HDD SATA"
+    ],
+    [
+      "e1e652e7-0577-4d2a-87ec-23058b2a32e6",
+      "ODD SATA"
     ],
     [
       "f73644f9-7031-46ce-a27d-051daa072fe8",

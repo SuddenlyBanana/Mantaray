@@ -3,4 +3,5 @@
   (lib (name "X360")(type "KiCad")(uri "${KIPRJMOD}/library/X360.kicad_sym")(options "")(descr ""))
   (lib (name "SDRAM")(type "KiCad")(uri "${KIPRJMOD}/library/SDRAM.kicad_sym")(options "")(descr ""))
   (lib (name "TOTX1950A")(type "KiCad")(uri "${KIPRJMOD}/library/TOTX1950A.kicad_sym")(options "")(descr ""))
+  (lib (name "FLASH")(type "KiCad")(uri "${KIPRJMOD}/library/FLASH.kicad_sym")(options "")(descr ""))
 )
