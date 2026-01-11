@@ -1681,7 +1681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d826c46-d8de-498e-8923-724b4239e2c8")
-		(property "Reference" "J"
+		(property "Reference" "J?"
 			(at 129.54 62.2299 0)
 			(effects
 				(font
@@ -1749,6 +1749,10 @@
 		)
 		(instances
 			(project "Mantaray"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/cc308790-ec7c-4071-93af-221aae7f0fb4/6ec1175a-a533-45d1-992f-35a75dc24d62"
+					(reference "J?")
+					(unit 1)
+				)
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/cc308790-ec7c-4071-93af-221aae7f0fb4/e1e652e7-0577-4d2a-87ec-23058b2a32e6"
 					(reference "J10")
 					(unit 1)

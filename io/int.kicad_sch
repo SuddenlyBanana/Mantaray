@@ -10808,7 +10808,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "io/sata.kicad_sch"
+		(property "Sheetfile" "sata.kicad_sch"
 			(at 223.52 137.7446 0)
 			(effects
 				(font
@@ -10860,7 +10860,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "io/sata.kicad_sch"
+		(property "Sheetfile" "sata.kicad_sch"
 			(at 223.52 150.4446 0)
 			(effects
 				(font
