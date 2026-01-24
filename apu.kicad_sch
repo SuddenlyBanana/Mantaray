@@ -519,6 +519,17 @@
 		)
 		(uuid "027e31f0-e833-4a37-95a0-ce2a1787ec78")
 	)
+	(hierarchical_label "{XCGPU_APS}"
+		(shape output)
+		(at 74.93 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10365d19-2918-414a-b1ef-9e5108e8e980")
+	)
 	(hierarchical_label "CPU_CLK_DN"
 		(shape input)
 		(at 34.29 41.91 180)
@@ -816,17 +827,6 @@
 		)
 		(uuid "e38237d5-bf7f-4793-8490-6f382bd6326b")
 	)
-	(hierarchical_label "XCGPU{VREG_APS[1..6]}"
-		(shape output)
-		(at 74.93 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ecf7b106-5540-4d67-b1d9-881b44a767a5")
-	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 64.77 115.57 0)
@@ -836,7 +836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "021e15c9-c689-441f-9323-107470cbd508")
-		(property "Reference" "TP33"
+		(property "Reference" "TP3"
 			(at 66.04 115.57 0)
 			(effects
 				(font
@@ -888,7 +888,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP33")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -904,7 +904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07596fb4-ddf3-4f26-ba96-a90e54baa4f2")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 80.01 43.18 0)
 			(effects
 				(font
@@ -957,7 +957,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -972,7 +972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22db8cb0-17f3-4086-828b-9296c19fef52")
-		(property "Reference" "TP29"
+		(property "Reference" "TP13"
 			(at 81.28 63.5 0)
 			(effects
 				(font
@@ -1024,7 +1024,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP29")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -1039,7 +1039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ea7c479-a9e3-472b-9866-7d1b934dfe90")
-		(property "Reference" "TP30"
+		(property "Reference" "TP14"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -1091,7 +1091,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP30")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -1106,7 +1106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79d282bc-f941-4441-abec-3a1cdb6cc4c5")
-		(property "Reference" "TP31"
+		(property "Reference" "TP1"
 			(at 66.04 109.22 0)
 			(effects
 				(font
@@ -1158,7 +1158,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP31")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -1173,7 +1173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96787e96-21f1-4e24-85c1-6c17c181e922")
-		(property "Reference" "TP36"
+		(property "Reference" "TP6"
 			(at 66.04 124.46 0)
 			(effects
 				(font
@@ -1225,7 +1225,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP36")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -1240,7 +1240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97f12d83-3a76-4cf3-afec-5b8c63014d25")
-		(property "Reference" "TP28"
+		(property "Reference" "TP12"
 			(at 81.28 59.69 0)
 			(effects
 				(font
@@ -1292,7 +1292,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP28")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -1307,7 +1307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5c9744b-dfa3-43af-978b-174f40d48deb")
-		(property "Reference" "TP35"
+		(property "Reference" "TP5"
 			(at 66.04 121.92 0)
 			(effects
 				(font
@@ -1359,7 +1359,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP35")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -1374,7 +1374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b66f0421-b911-4080-8652-8f86eb380aee")
-		(property "Reference" "TP25"
+		(property "Reference" "TP9"
 			(at 81.28 50.8 0)
 			(effects
 				(font
@@ -1426,7 +1426,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP25")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -1441,7 +1441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce5ba0e5-9a5c-4cdf-88d6-9823819299bc")
-		(property "Reference" "TP26"
+		(property "Reference" "TP10"
 			(at 81.28 53.34 0)
 			(effects
 				(font
@@ -1493,7 +1493,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP26")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -1508,7 +1508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d234d835-c2d8-4d94-9298-2edf05794eec")
-		(property "Reference" "TP42"
+		(property "Reference" "TP8"
 			(at 81.28 40.64 0)
 			(effects
 				(font
@@ -1560,7 +1560,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP42")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -1575,7 +1575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de85aa1f-8d59-4bb7-83a6-454b5bc07666")
-		(property "Reference" "TP32"
+		(property "Reference" "TP2"
 			(at 66.04 111.76 0)
 			(effects
 				(font
@@ -1627,7 +1627,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP32")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -1642,7 +1642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e937fd28-783a-446c-a7de-1b4df73fef59")
-		(property "Reference" "TP37"
+		(property "Reference" "TP7"
 			(at 78.74 82.55 0)
 			(effects
 				(font
@@ -1694,7 +1694,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP37")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -1709,7 +1709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaeff242-2d4f-4321-9ce5-c7ce0d2b6728")
-		(property "Reference" "TP27"
+		(property "Reference" "TP11"
 			(at 81.28 57.15 0)
 			(effects
 				(font
@@ -1761,7 +1761,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP27")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -1776,7 +1776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3f06756-c126-4e28-83cb-42496b57894b")
-		(property "Reference" "TP34"
+		(property "Reference" "TP4"
 			(at 66.04 118.11 0)
 			(effects
 				(font
@@ -1828,7 +1828,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb"
-					(reference "TP34")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -2120,9 +2120,9 @@
 				(justify right)
 			)
 		)
-		(pin "XCGPU{VREG_APS[1..6]}" output
+		(pin "{XCGPU_APS}" output
 			(at 74.93 33.02 0)
-			(uuid "b255ea7c-acb1-45bb-9b1c-212911950829")
+			(uuid "1def4ea5-e26b-46aa-864d-099a507edbfb")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -27886,7 +27886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "067aedfd-10fe-4c2c-9380-3bc4495bcabd")
-		(property "Reference" "C13"
+		(property "Reference" "C10"
 			(at 113.03 173.99 0)
 			(effects
 				(font
@@ -27940,7 +27940,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -27955,7 +27955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fb3bbdb-fee9-4fe7-9da5-ad2e90a16af2")
-		(property "Reference" "C10"
+		(property "Reference" "C4"
 			(at 74.93 173.99 0)
 			(effects
 				(font
@@ -28009,7 +28009,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "C10")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -28024,7 +28024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "248d9712-7e9a-45cd-b487-20a2145343e1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR07"
 			(at 59.69 144.78 0)
 			(effects
 				(font
@@ -28074,7 +28074,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "#PWR012")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -28158,7 +28158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "260e0b42-a886-479b-a5d4-c05ddeb4eba9")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 125.73 173.99 0)
 			(effects
 				(font
@@ -28212,7 +28212,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "C14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -31754,7 +31754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41c6388b-b5a2-41ae-96d5-e104cfa2ca64")
-		(property "Reference" "C9"
+		(property "Reference" "C2"
 			(at 62.23 173.99 0)
 			(effects
 				(font
@@ -31808,7 +31808,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "C9")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -31823,7 +31823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5758aa05-5986-4655-a8c2-384f95157347")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 100.33 148.59 0)
 			(effects
 				(font
@@ -31877,7 +31877,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -31892,7 +31892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "736d2f98-c5ca-470c-9286-a5c84533c55b")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 113.03 148.59 0)
 			(effects
 				(font
@@ -31946,7 +31946,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -31961,7 +31961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75036193-beef-4cfe-a446-cbaf3de3814c")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 62.23 148.59 0)
 			(effects
 				(font
@@ -32015,7 +32015,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -32031,7 +32031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79805232-6bba-4ef5-999e-bfa28caab7f1")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR010"
 			(at 123.19 190.5 0)
 			(effects
 				(font
@@ -32081,7 +32081,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "#PWR017")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -35623,7 +35623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "915a0421-901a-4f80-8ddf-7bcc007b5aa7")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 125.73 148.59 0)
 			(effects
 				(font
@@ -35677,7 +35677,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -35692,7 +35692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a84dd6ef-37a7-4b06-9745-93dadc977d7b")
-		(property "Reference" "C11"
+		(property "Reference" "C6"
 			(at 87.63 173.99 0)
 			(effects
 				(font
@@ -35746,7 +35746,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "C11")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -35762,7 +35762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab00db84-ea7b-4a12-9104-4d33f4f06f50")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR09"
 			(at 123.19 165.1 0)
 			(effects
 				(font
@@ -35812,7 +35812,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "#PWR015")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -35827,7 +35827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1cc4654-7d44-47c0-a975-b2597746a67f")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR08"
 			(at 59.69 170.18 0)
 			(effects
 				(font
@@ -35877,7 +35877,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "#PWR016")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -35892,7 +35892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b23d3bbe-fe1c-40b2-83b0-c4e843858f1b")
-		(property "Reference" "R9"
+		(property "Reference" "R6"
 			(at 83.566 128.524 90)
 			(effects
 				(font
@@ -35944,7 +35944,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "R9")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -35959,7 +35959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2e1f59f-62d1-4e61-9136-2e41535ef007")
-		(property "Reference" "R14"
+		(property "Reference" "R9"
 			(at 202.946 133.604 90)
 			(effects
 				(font
@@ -36011,7 +36011,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "R14")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -36026,7 +36026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b41f6730-b55d-4cb9-a57d-57fb9ea6ebfe")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 100.33 173.99 0)
 			(effects
 				(font
@@ -36080,7 +36080,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -36095,7 +36095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db131b85-7abf-40dd-b50f-92bd3c1bf8ee")
-		(property "Reference" "R13"
+		(property "Reference" "R7"
 			(at 83.566 133.604 90)
 			(effects
 				(font
@@ -36147,7 +36147,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "R13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -36162,7 +36162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee7f07eb-b8af-4e59-b7f4-d644a2325ad9")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 74.93 148.59 0)
 			(effects
 				(font
@@ -36216,7 +36216,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -36231,7 +36231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eef55344-758b-49ca-a968-aa80132bf7dc")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 202.946 128.524 90)
 			(effects
 				(font
@@ -36283,7 +36283,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/15d9acf0-ed9b-44aa-a266-2c44722c6abb/bdd4374f-24d8-4ec0-91f8-4c96c55e95c1"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)

@@ -1328,6 +1328,36 @@
 	(bus_alias "USB"
 		(members "D-" "D+")
 	)
+	(text "VREG_V3P3_EN"
+		(exclude_from_sim no)
+		(at 214.884 130.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6449cde6-060b-43b9-9516-27283773168b")
+	)
+	(text "EXT_TEMP_PWR_CTRL"
+		(exclude_from_sim no)
+		(at 134.62 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8b837e41-7858-42fe-92e3-a6166390175f")
+	)
+	(text "VREG_V5P0_EN"
+		(exclude_from_sim no)
+		(at 137.668 120.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "afb85faa-bbcb-4e8b-aa16-dd113f17d5e9")
+	)
 	(junction
 		(at 91.44 176.53)
 		(diameter 0)
@@ -1357,18 +1387,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97db952c-a89a-4be6-9d71-cd08aaa864c9")
-	)
-	(no_connect
-		(at 229.87 130.81)
-		(uuid "50d8dc0c-912c-4cfc-8e37-412833c596b4")
-	)
-	(no_connect
-		(at 152.4 120.65)
-		(uuid "5851f004-108f-4ffc-9117-4fe056576489")
-	)
-	(no_connect
-		(at 152.4 115.57)
-		(uuid "e20e78c1-6c35-4750-998c-eeb7ab53f3ad")
 	)
 	(bus_entry
 		(at 175.26 82.55)
@@ -2268,16 +2286,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 151.13) (xy 250.19 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e985d81-324f-47d4-abbf-fb5009d44560")
-	)
-	(wire
-		(pts
 			(xy 147.32 156.21) (xy 172.72 156.21)
 		)
 		(stroke
@@ -2705,6 +2713,16 @@
 			(type default)
 		)
 		(uuid "83ff7478-94f4-450b-a823-2ef4fe69f9d9")
+	)
+	(wire
+		(pts
+			(xy 229.87 151.13) (xy 250.19 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8504f681-dbf9-4a87-9c03-0eab2ff50b33")
 	)
 	(wire
 		(pts
@@ -3256,16 +3274,6 @@
 		)
 		(uuid "cf1558af-8936-48d2-85d2-e14cc6aae3f2")
 	)
-	(wire
-		(pts
-			(xy 234.95 143.51) (xy 250.19 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0640eaa-14df-4767-9281-04f87e2828ba")
-	)
 	(bus
 		(pts
 			(xy 252.73 120.65) (xy 252.73 123.19)
@@ -3365,6 +3373,16 @@
 			(type default)
 		)
 		(uuid "e1354200-ea84-4c53-88cc-8ed96fec5c5c")
+	)
+	(wire
+		(pts
+			(xy 229.87 143.51) (xy 250.19 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26bb7d7-e1bd-4fc8-81c4-fe5d1413b601")
 	)
 	(wire
 		(pts
@@ -3605,16 +3623,6 @@
 			(justify left bottom)
 		)
 		(uuid "05825bdc-2216-4293-be0e-13565de93a72")
-	)
-	(label "PS_ON#"
-		(at 219.71 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "06a371d7-0121-4374-b638-8881ac17172b")
 	)
 	(label "SMC.P0_GPIO6"
 		(at 157.48 92.71 0)
@@ -4799,7 +4807,7 @@
 		)
 		(uuid "1a23bfdd-32a5-4fde-8a31-0f5d051bb366")
 	)
-	(hierarchical_label "ATX_PWRGD"
+	(hierarchical_label "PSU_PWRGD"
 		(shape input)
 		(at 152.4 102.87 180)
 		(effects
@@ -5129,6 +5137,17 @@
 		)
 		(uuid "a0acccb6-4641-4689-8bd6-44c436f3466a")
 	)
+	(hierarchical_label "PWR_EN"
+		(shape output)
+		(at 229.87 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4a010a9-2d35-4332-90b9-f1898e330637")
+	)
 	(hierarchical_label "SCART_RGB"
 		(shape output)
 		(at 232.41 72.39 180)
@@ -5360,7 +5379,7 @@
 		)
 		(uuid "ec44715a-12f0-42f2-8a2f-09b47b2ffd46")
 	)
-	(hierarchical_label "ATX_PWRGD"
+	(hierarchical_label "PSU_PWRGD"
 		(shape input)
 		(at 229.87 115.57 180)
 		(effects
@@ -5446,7 +5465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00eedf80-764f-45f5-8c00-45f71a265340")
-		(property "Reference" "R116"
+		(property "Reference" "R46"
 			(at 215.9 111.76 90)
 			(effects
 				(font
@@ -5498,7 +5517,75 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R116")
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 152.4 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05b41011-eaa6-41e0-bdda-1fb76c26f3dc")
+		(property "Reference" "TP42"
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 151.13 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d0c9ada-3010-4de6-a32b-a0f3b76d11dc")
+		)
+		(instances
+			(project "Mantaray"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
+					(reference "TP42")
 					(unit 1)
 				)
 			)
@@ -5514,7 +5601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "077cca50-b83f-497b-a29c-4871a0bc8d9a")
-		(property "Reference" "#PWR0253"
+		(property "Reference" "#PWR089"
 			(at 106.68 193.04 0)
 			(effects
 				(font
@@ -5564,7 +5651,7 @@
 		(instances
 			(project ""
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "#PWR0253")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -5579,7 +5666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08ffc187-d1e3-4aba-9789-97a85e38a5a8")
-		(property "Reference" "JP6"
+		(property "Reference" "JP5"
 			(at 91.44 156.21 0)
 			(effects
 				(font
@@ -5635,7 +5722,75 @@
 		(instances
 			(project ""
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "JP6")
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 152.4 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "099a9484-c746-4941-9546-e9075aa48f5b")
+		(property "Reference" "TP41"
+			(at 151.13 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 151.13 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88aec60e-30a4-43fb-b514-a0495abc2905")
+		)
+		(instances
+			(project "Mantaray"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
+					(reference "TP41")
 					(unit 1)
 				)
 			)
@@ -5650,7 +5805,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17914401-993e-4785-bc9f-aa867a3f25c6")
-		(property "Reference" "R111"
+		(property "Reference" "R43"
 			(at 138.43 154.94 90)
 			(effects
 				(font
@@ -5702,7 +5857,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R111")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -5718,7 +5873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d68c28a-175d-45aa-b2bf-d5c00ce15df5")
-		(property "Reference" "#PWR0252"
+		(property "Reference" "#PWR088"
 			(at 106.68 170.18 0)
 			(effects
 				(font
@@ -5768,7 +5923,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "#PWR0252")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -5784,7 +5939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e5d0f32-753f-43c3-b999-4864455caab6")
-		(property "Reference" "#PWR0256"
+		(property "Reference" "#PWR085"
 			(at 85.09 163.83 0)
 			(effects
 				(font
@@ -5834,7 +5989,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "#PWR0256")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -5849,7 +6004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "245341ee-b7d8-4be5-a087-0835d47314ed")
-		(property "Reference" "R114"
+		(property "Reference" "R44"
 			(at 148.844 130.81 0)
 			(effects
 				(font
@@ -5903,7 +6058,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R114")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5918,7 +6073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "341d54f1-e710-4b4f-98f4-562ba0b5f5ce")
-		(property "Reference" "R125"
+		(property "Reference" "R37"
 			(at 123.444 100.33 0)
 			(effects
 				(font
@@ -5972,7 +6127,75 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R125")
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 229.87 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "344cf991-918e-40ea-bc22-74647960de2d")
+		(property "Reference" "TP40"
+			(at 228.6 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 228.6 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 229.87 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "709e14e7-d195-45bc-b63c-b0a0549999e3")
+		)
+		(instances
+			(project "Mantaray"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
+					(reference "TP40")
 					(unit 1)
 				)
 			)
@@ -5988,7 +6211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f1bdf9f-f357-4eeb-b879-b265a042dc6d")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR091"
 			(at 137.16 132.08 0)
 			(effects
 				(font
@@ -6038,7 +6261,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "#PWR0227")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -6054,7 +6277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42c4800b-e334-4997-b08e-9bd5392f3862")
-		(property "Reference" "TP39"
+		(property "Reference" "TP27"
 			(at 36.83 45.72 0)
 			(effects
 				(font
@@ -6106,7 +6329,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "TP39")
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -6122,7 +6345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e89f9dd-023d-416d-aaba-253018f0be40")
-		(property "Reference" "TP38"
+		(property "Reference" "TP26"
 			(at 36.83 43.18 0)
 			(effects
 				(font
@@ -6174,7 +6397,75 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "TP38")
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 229.87 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60eb6fb6-1739-4253-889d-5e1004e2fac7")
+		(property "Reference" "TP31"
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 228.6 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 229.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55913c50-a0a5-4719-b1e0-a6f10c3ad13b")
+		)
+		(instances
+			(project "Mantaray"
+				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -6190,7 +6481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b9a99ff-4e91-43c7-8a40-012ada0ae8dc")
-		(property "Reference" "#PWR0233"
+		(property "Reference" "#PWR090"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -6240,7 +6531,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "#PWR0233")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -6255,7 +6546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7673ab51-7c8f-465c-9d61-910b9585cd9b")
-		(property "Reference" "R126"
+		(property "Reference" "R36"
 			(at 98.044 92.71 0)
 			(effects
 				(font
@@ -6309,7 +6600,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R126")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -6325,7 +6616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ed6f4ff-8faf-4706-8a54-ffe9496582a0")
-		(property "Reference" "TP41"
+		(property "Reference" "TP29"
 			(at 36.83 52.07 0)
 			(effects
 				(font
@@ -6377,7 +6668,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "TP41")
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -6392,7 +6683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fd0ec9f-7328-4e76-94d0-7f7ca514a8f1")
-		(property "Reference" "R179"
+		(property "Reference" "R39"
 			(at 133.096 174.244 90)
 			(effects
 				(font
@@ -6444,7 +6735,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R179")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -6460,7 +6751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80f4a44a-a801-4fd8-b9bb-a7bb7a943698")
-		(property "Reference" "#PWR0255"
+		(property "Reference" "#PWR087"
 			(at 97.79 166.37 0)
 			(effects
 				(font
@@ -6510,7 +6801,7 @@
 		(instances
 			(project ""
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "#PWR0255")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -6526,7 +6817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "867f625e-4dea-40fe-98fe-4ef59d5712ab")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR092"
 			(at 147.32 132.08 0)
 			(effects
 				(font
@@ -6576,7 +6867,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "#PWR0226")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -6591,7 +6882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "873ec1fa-ffc4-4f50-b8a2-df8ca60c7a84")
-		(property "Reference" "R123"
+		(property "Reference" "R47"
 			(at 215.9 152.4 90)
 			(effects
 				(font
@@ -6643,7 +6934,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R123")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -6658,7 +6949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "954a33d2-1f6e-481c-96b6-88a6161b7cda")
-		(property "Reference" "J8"
+		(property "Reference" "J2"
 			(at 109.22 80.01 0)
 			(effects
 				(font
@@ -6711,7 +7002,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "J8")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6727,7 +7018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a66426b0-a0de-426e-a26d-261940c762e6")
-		(property "Reference" "#PWR0254"
+		(property "Reference" "#PWR093"
 			(at 149.86 180.34 0)
 			(effects
 				(font
@@ -6777,7 +7068,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "#PWR0254")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -6792,7 +7083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9eb4857-e040-4547-892f-f44ac62769cb")
-		(property "Reference" "R5"
+		(property "Reference" "R38"
 			(at 128.27 93.98 90)
 			(effects
 				(font
@@ -6844,7 +7135,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R5")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -6860,7 +7151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4dfc001-3b77-4900-b625-12a0263e08b5")
-		(property "Reference" "U15"
+		(property "Reference" "U4"
 			(at 123.19 170.1098 0)
 			(effects
 				(font
@@ -6922,7 +7213,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "U15")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6938,7 +7229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c76cf2bc-a923-4ae4-ac2b-3bfe2470e95b")
-		(property "Reference" "TP40"
+		(property "Reference" "TP28"
 			(at 36.83 49.53 0)
 			(effects
 				(font
@@ -6990,7 +7281,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "TP40")
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -7005,7 +7296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1b4dd83-ce35-4999-aacd-1d49cbed1ff5")
-		(property "Reference" "R124"
+		(property "Reference" "R45"
 			(at 208.28 144.78 90)
 			(effects
 				(font
@@ -7057,7 +7348,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R124")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -7073,7 +7364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbdd65be-4da5-46ce-ad69-623e5838ed5b")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR086"
 			(at 96.52 104.14 0)
 			(effects
 				(font
@@ -7123,7 +7414,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "#PWR0175")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -7138,7 +7429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2c78ac5-f104-4251-929b-ae8b5c9e6a25")
-		(property "Reference" "R112"
+		(property "Reference" "R42"
 			(at 138.43 147.32 90)
 			(effects
 				(font
@@ -7190,7 +7481,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R112")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -7206,7 +7497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e56b85f9-5e3f-4d17-bcb4-b05e0b8f3098")
-		(property "Reference" "TP23"
+		(property "Reference" "TP25"
 			(at 36.83 33.02 0)
 			(effects
 				(font
@@ -7258,7 +7549,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "TP23")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -7273,7 +7564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8a78284-a9a8-4bc0-88a1-f3aa10a0bfa8")
-		(property "Reference" "R180"
+		(property "Reference" "R35"
 			(at 92.964 168.91 0)
 			(effects
 				(font
@@ -7327,7 +7618,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R180")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -7342,7 +7633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9e60bca-f442-4240-bd08-2ec61c3c4dc3")
-		(property "Reference" "R115"
+		(property "Reference" "R40"
 			(at 138.684 130.81 0)
 			(effects
 				(font
@@ -7396,7 +7687,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R115")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -7412,7 +7703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef1e707c-692e-4669-aaad-eced96f45068")
-		(property "Reference" "D34"
+		(property "Reference" "D1"
 			(at 144.4625 182.88 0)
 			(effects
 				(font
@@ -7473,7 +7764,7 @@
 		(instances
 			(project ""
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "D34")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7488,7 +7779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1418e33-a05b-444f-bdad-0b60d427c72d")
-		(property "Reference" "R113"
+		(property "Reference" "R41"
 			(at 138.43 142.24 90)
 			(effects
 				(font
@@ -7540,7 +7831,7 @@
 		(instances
 			(project "StingBurst"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "R113")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -7555,7 +7846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f63b69cd-5179-47b3-adf5-4b8c02b70093")
-		(property "Reference" "TP24"
+		(property "Reference" "TP30"
 			(at 82.55 35.56 0)
 			(effects
 				(font
@@ -7607,7 +7898,7 @@
 		(instances
 			(project "Mantaray"
 				(path "/16640ecb-e4a4-4594-871b-70047bfba6e0/5578fb0d-7a85-48a3-97bd-11e67ac7c8dc"
-					(reference "TP24")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
